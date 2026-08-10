@@ -1,0 +1,5677 @@
+{
+ "Elias Vuollet": {
+  "member_id": "2648138",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2648138",
+  "season_points": 10950.0,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 1600.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "1",
+      "points": 600.0
+     },
+     {
+      "event": "MD A",
+      "placing": "1",
+      "points": 500.0
+     },
+     {
+      "event": "XD A",
+      "placing": "1",
+      "points": 500.0
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 2720.0,
+    "events": [
+     {
+      "event": "XD A",
+      "placing": "2",
+      "points": 1440.0
+     },
+     {
+      "event": "MS A",
+      "placing": "5/8",
+      "points": 960.0
+     },
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 320.0
+     }
+    ]
+   },
+   {
+    "tournament": "Hämeenlinnan Sulkapalloilijoiden 50 v. Premier Eliitti",
+    "date": "2026-01-03",
+    "week": "2026-1",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/9f8107cd-9d83-450e-8582-8cd113866db4",
+    "points": 2600.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "1",
+      "points": 2240.0
+     },
+     {
+      "event": "MS A",
+      "placing": "9/16",
+      "points": 320.0
+     },
+     {
+      "event": "XD A",
+      "placing": "9/16",
+      "points": 40.0
+     }
+    ]
+   },
+   {
+    "tournament": "ABC-luokkamestaruudet",
+    "date": "2026-05-02",
+    "week": "2026-18",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d785fb2c-4571-4735-b92a-3a45af842925",
+    "points": 3230.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "3/4",
+      "points": 1700.0
+     },
+     {
+      "event": "MD A",
+      "placing": "3/4",
+      "points": 1530.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 800.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "2",
+      "points": 450.0
+     },
+     {
+      "event": "MS A",
+      "placing": "2",
+      "points": 350.0
+     }
+    ]
+   }
+  ]
+ },
+ "Nelly Määttä": {
+  "member_id": "4688983",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=4688983",
+  "season_points": 10890.0,
+  "tournaments": [
+   {
+    "tournament": "Sulkakauppa ESB Elite 2025",
+    "date": "2025-08-16",
+    "week": "2025-33",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/b03c7f8b-ab1f-4d6a-83e2-e97ae9435d8c",
+    "points": 1200.0,
+    "events": [
+     {
+      "event": "XD A",
+      "placing": "1",
+      "points": 1200.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 540.0,
+    "events": [
+     {
+      "event": "XD A",
+      "placing": "1",
+      "points": 500.0
+     },
+     {
+      "event": "MS B",
+      "placing": "9/16",
+      "points": 40.0
+     }
+    ]
+   },
+   {
+    "tournament": "Saaristo Premier Elite 2025",
+    "date": "2025-09-06",
+    "week": "2025-36",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/384f1d9a-a948-4acd-8200-3c8f96ac9882",
+    "points": 1565.0,
+    "events": [
+     {
+      "event": "XD A",
+      "placing": "2",
+      "points": 1440.0
+     },
+     {
+      "event": "WS V",
+      "placing": "9/16",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Stadin Sulan Eliitti 2025",
+    "date": "2025-10-04",
+    "week": "2025-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4e97ee13-bae8-487f-9cc9-b8fc4005955a",
+    "points": 1275.0,
+    "events": [
+     {
+      "event": "WD V",
+      "placing": "3/4",
+      "points": 1200.0
+     },
+     {
+      "event": "WS V",
+      "placing": "9/16",
+      "points": 75.0
+     }
+    ]
+   },
+   {
+    "tournament": "Helsinki Open Premier Elite",
+    "date": "2025-10-24",
+    "week": "2025-43",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/ea65d995-5511-4901-8320-94b21df1cbb8",
+    "points": 1625.0,
+    "events": [
+     {
+      "event": "WD V",
+      "placing": "5/8",
+      "points": 1500.0
+     },
+     {
+      "event": "WS V",
+      "placing": "9/16",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 250.0,
+    "events": [
+     {
+      "event": "WS V",
+      "placing": "9/16",
+      "points": 125.0
+     },
+     {
+      "event": "WD V",
+      "placing": "5/8",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "Hämeenlinnan Sulkapalloilijoiden 50 v. Premier Eliitti",
+    "date": "2026-01-03",
+    "week": "2026-1",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/9f8107cd-9d83-450e-8582-8cd113866db4",
+    "points": 250.0,
+    "events": [
+     {
+      "event": "WS V",
+      "placing": "9/16",
+      "points": 125.0
+     },
+     {
+      "event": "WD V",
+      "placing": "9/16",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "YONEX Sulkapallon SM 2026",
+    "date": "2026-01-29",
+    "week": "2026-5",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/64462f47-878e-4390-bae1-7a7482f473af",
+    "points": 3000.0,
+    "events": [
+     {
+      "event": "WD V",
+      "placing": "5/8",
+      "points": 2400.0
+     },
+     {
+      "event": "WS V",
+      "placing": "17/32",
+      "points": 600.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 240.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "5/8",
+      "points": 240.0
+     }
+    ]
+   },
+   {
+    "tournament": "FZ Forza BadU Premier Eliitti",
+    "date": "2026-05-09",
+    "week": "2026-19",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/115bd4c0-38ca-4ec2-81a4-bcaaf97059d7",
+    "points": 125.0,
+    "events": [
+     {
+      "event": "WD V",
+      "placing": "5/8",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 460.0,
+    "events": [
+     {
+      "event": "XD A",
+      "placing": "1",
+      "points": 400.0
+     },
+     {
+      "event": "MS B",
+      "placing": "5/8",
+      "points": 60.0
+     }
+    ]
+   },
+   {
+    "tournament": "RSL Finnish Junior 2025 (BEC Junior Intl Series - U19A 2,5*)",
+    "date": "",
+    "week": "2025-39",
+    "url": "",
+    "points": 360.0,
+    "events": [
+     {
+      "event": "NK U19",
+      "placing": "9/16",
+      "points": 120.0
+     },
+     {
+      "event": "NN U19",
+      "placing": "5/8",
+      "points": 120.0
+     },
+     {
+      "event": "Naiset SN U19",
+      "placing": "5/8",
+      "points": 120.0
+     }
+    ]
+   }
+  ]
+ },
+ "Iiro Romppainen": {
+  "member_id": "2377347",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377347",
+  "season_points": 9202.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Stadin Sulan Eliitti 2025",
+    "date": "2025-10-04",
+    "week": "2025-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4e97ee13-bae8-487f-9cc9-b8fc4005955a",
+    "points": 1800.0,
+    "events": [
+     {
+      "event": "XD V",
+      "placing": "5/8",
+      "points": 900.0
+     },
+     {
+      "event": "MD A",
+      "placing": "2",
+      "points": 900.0
+     }
+    ]
+   },
+   {
+    "tournament": "Helsinki Open Premier Elite",
+    "date": "2025-10-24",
+    "week": "2025-43",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/ea65d995-5511-4901-8320-94b21df1cbb8",
+    "points": 1885.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "2",
+      "points": 1760.0
+     },
+     {
+      "event": "XD V",
+      "placing": "17/32",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 1245.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 1120.0
+     },
+     {
+      "event": "XD V",
+      "placing": "9/16",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 2100.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "1",
+      "points": 1200.0
+     },
+     {
+      "event": "MS A",
+      "placing": "2",
+      "points": 900.0
+     }
+    ]
+   },
+   {
+    "tournament": "ABC-luokkamestaruudet",
+    "date": "2026-05-02",
+    "week": "2026-18",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d785fb2c-4571-4735-b92a-3a45af842925",
+    "points": 1572.5,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "3/4",
+      "points": 1530.0
+     },
+     {
+      "event": "MS A",
+      "placing": "17/32",
+      "points": 42.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 600.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "1",
+      "points": 600.0
+     }
+    ]
+   }
+  ]
+ },
+ "Jenni Lahti": {
+  "member_id": "2698049",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698049",
+  "season_points": 9085.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Stadin Sulan Eliitti 2025",
+    "date": "2025-10-04",
+    "week": "2025-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4e97ee13-bae8-487f-9cc9-b8fc4005955a",
+    "points": 2175.0,
+    "events": [
+     {
+      "event": "WD V",
+      "placing": "3/4",
+      "points": 1200.0
+     },
+     {
+      "event": "XD V",
+      "placing": "5/8",
+      "points": 900.0
+     },
+     {
+      "event": "WS V",
+      "placing": "9/16",
+      "points": 75.0
+     }
+    ]
+   },
+   {
+    "tournament": "Helsinki Open Premier Elite",
+    "date": "2025-10-24",
+    "week": "2025-43",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/ea65d995-5511-4901-8320-94b21df1cbb8",
+    "points": 250.0,
+    "events": [
+     {
+      "event": "WS V",
+      "placing": "9/16",
+      "points": 125.0
+     },
+     {
+      "event": "XD V",
+      "placing": "17/32",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 4500.0,
+    "events": [
+     {
+      "event": "WS V",
+      "placing": "3/4",
+      "points": 3000.0
+     },
+     {
+      "event": "XD V",
+      "placing": "5/8",
+      "points": 1500.0
+     }
+    ]
+   },
+   {
+    "tournament": "YONEX Sulkapallon SM 2026",
+    "date": "2026-01-29",
+    "week": "2026-5",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/64462f47-878e-4390-bae1-7a7482f473af",
+    "points": 1800.0,
+    "events": [
+     {
+      "event": "XD V",
+      "placing": "9/16",
+      "points": 1600.0
+     },
+     {
+      "event": "WS V",
+      "placing": "33/64",
+      "points": 200.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 360.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "3/4",
+      "points": 360.0
+     }
+    ]
+   }
+  ]
+ },
+ "Ilari Leskelä": {
+  "member_id": "2377259",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377259",
+  "season_points": 5185.0,
+  "tournaments": [
+   {
+    "tournament": "Hämeenlinnan Sulkapalloilijoiden 50 v. Premier Eliitti",
+    "date": "2026-01-03",
+    "week": "2026-1",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/9f8107cd-9d83-450e-8582-8cd113866db4",
+    "points": 2560.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "1",
+      "points": 2560.0
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä kansallinen 2026",
+    "date": "2026-01-17",
+    "week": "2026-3",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/b70a8d75-1d26-494a-9fc1-1f6c75317ca2",
+    "points": 440.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 240.0
+     },
+     {
+      "event": "MS A",
+      "placing": "3/4",
+      "points": 200.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 885.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "1",
+      "points": 600.0
+     },
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 280.0
+     },
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 5.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 560.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 560.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 740.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "1",
+      "points": 500.0
+     },
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 240.0
+     }
+    ]
+   }
+  ]
+ },
+ "Aaro Romppainen": {
+  "member_id": "2377427",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377427",
+  "season_points": 4873.8,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 450.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 320.0
+     },
+     {
+      "event": "MS B",
+      "placing": "9/16",
+      "points": 130.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 1603.8,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "1",
+      "points": 1200.0
+     },
+     {
+      "event": "XD B",
+      "placing": "1",
+      "points": 400.0
+     },
+     {
+      "event": "MS B",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "ABC-luokkamestaruudet",
+    "date": "2026-05-02",
+    "week": "2026-18",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d785fb2c-4571-4735-b92a-3a45af842925",
+    "points": 2020.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "3/4",
+      "points": 1530.0
+     },
+     {
+      "event": "MS B",
+      "placing": "5/8",
+      "points": 490.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 800.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "1",
+      "points": 600.0
+     },
+     {
+      "event": "XD B",
+      "placing": "1",
+      "points": 200.0
+     }
+    ]
+   }
+  ]
+ },
+ "Marko Koivusaari": {
+  "member_id": "2377280",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377280",
+  "season_points": 3907.5,
+  "tournaments": [
+   {
+    "tournament": "Tapion Sulan 65v juhlaeliitti (Premier Elite)",
+    "date": "2025-11-08",
+    "week": "2025-45",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/41a452d4-6f98-4758-b404-d53a626246d8",
+    "points": 445.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 320.0
+     },
+     {
+      "event": "MS V",
+      "placing": "17/32",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 1725.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "3/4",
+      "points": 1600.0
+     },
+     {
+      "event": "MS V",
+      "placing": "17/32",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "YONEX Sulkapallon SM 2026",
+    "date": "2026-01-29",
+    "week": "2026-5",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/64462f47-878e-4390-bae1-7a7482f473af",
+    "points": 600.0,
+    "events": [
+     {
+      "event": "MS V",
+      "placing": "17/32",
+      "points": 600.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 300.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "3/4",
+      "points": 300.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 825.0,
+    "events": [
+     {
+      "event": "XD A",
+      "placing": "1",
+      "points": 800.0
+     },
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 25.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 12.5,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 12.5
+     }
+    ]
+   }
+  ]
+ },
+ "Aleksi Petäjäkangas": {
+  "member_id": "4475478",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=4475478",
+  "season_points": 3442.8,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 750.0,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "1",
+      "points": 240.0
+     },
+     {
+      "event": "MS B",
+      "placing": "3/4",
+      "points": 180.0
+     },
+     {
+      "event": "MD B",
+      "placing": "2",
+      "points": 180.0
+     },
+     {
+      "event": "MS A",
+      "placing": "5/8",
+      "points": 150.0
+     }
+    ]
+   },
+   {
+    "tournament": "Helsinki Open Premier Elite",
+    "date": "2025-10-24",
+    "week": "2025-43",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/ea65d995-5511-4901-8320-94b21df1cbb8",
+    "points": 352.6,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 320.0
+     },
+     {
+      "event": "MS B",
+      "placing": "33/64",
+      "points": 16.3
+     },
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 16.3
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 15.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 5.0
+     },
+     {
+      "event": "MS B",
+      "placing": "9/16",
+      "points": 5.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 5.0
+     }
+    ]
+   },
+   {
+    "tournament": "BadU juniori-eliitti",
+    "date": "2025-11-22",
+    "week": "2025-47",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/72702ebe-68a4-4bb6-b022-784c04cd8cef",
+    "points": 341.3,
+    "events": [
+     {
+      "event": "XD U15",
+      "placing": "2",
+      "points": 175.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 150.0
+     },
+     {
+      "event": "BD U17",
+      "placing": "9/16",
+      "points": 16.3
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 172.6,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "1",
+      "points": 140.0
+     },
+     {
+      "event": "MS B",
+      "placing": "17/32",
+      "points": 16.3
+     },
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 16.3
+     }
+    ]
+   },
+   {
+    "tournament": "Hämeenlinnan Sulkapalloilijoiden 50 v. Premier Eliitti",
+    "date": "2026-01-03",
+    "week": "2026-1",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/9f8107cd-9d83-450e-8582-8cd113866db4",
+    "points": 601.3,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "5/8",
+      "points": 585.0
+     },
+     {
+      "event": "MD A",
+      "placing": "17/32",
+      "points": 16.3
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä kansallinen 2026",
+    "date": "2026-01-17",
+    "week": "2026-3",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/b70a8d75-1d26-494a-9fc1-1f6c75317ca2",
+    "points": 560.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 240.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "1",
+      "points": 200.0
+     },
+     {
+      "event": "MS B",
+      "placing": "3/4",
+      "points": 120.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ling-Mei Sulkaset Eliitti 2026",
+    "date": "2026-02-14",
+    "week": "2026-7",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/33256941-9560-4cea-a861-57f8a03226e6",
+    "points": 360.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "5/8",
+      "points": 280.0
+     },
+     {
+      "event": "MS B",
+      "placing": "9/16",
+      "points": 80.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 130.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "3/4",
+      "points": 120.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 10.0
+     }
+    ]
+   },
+   {
+    "tournament": "Umeträffen 2025",
+    "date": "",
+    "week": "2025-39",
+    "url": "",
+    "points": 160.0,
+    "events": [
+     {
+      "event": "MK B",
+      "placing": "3/4",
+      "points": 50.0
+     },
+     {
+      "event": "MN B",
+      "placing": "3/4",
+      "points": 50.0
+     },
+     {
+      "event": "MN B",
+      "placing": "3/4",
+      "points": 50.0
+     },
+     {
+      "event": "Miehet SN B",
+      "placing": "9/16",
+      "points": 10.0
+     }
+    ]
+   }
+  ]
+ },
+ "Emilia Mattila": {
+  "member_id": "6405772",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=6405772",
+  "season_points": 2735.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Stadin Sulan Eliitti 2025",
+    "date": "2025-10-04",
+    "week": "2025-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4e97ee13-bae8-487f-9cc9-b8fc4005955a",
+    "points": 1525.0,
+    "events": [
+     {
+      "event": "XD V",
+      "placing": "5/8",
+      "points": 900.0
+     },
+     {
+      "event": "WS A",
+      "placing": "5/8",
+      "points": 600.0
+     },
+     {
+      "event": "WD A",
+      "placing": "9/16",
+      "points": 25.0
+     }
+    ]
+   },
+   {
+    "tournament": "Helsinki Open Premier Elite",
+    "date": "2025-10-24",
+    "week": "2025-43",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/ea65d995-5511-4901-8320-94b21df1cbb8",
+    "points": 1000.0,
+    "events": [
+     {
+      "event": "WS A",
+      "placing": "5/8",
+      "points": 480.0
+     },
+     {
+      "event": "WD A",
+      "placing": "5/8",
+      "points": 480.0
+     },
+     {
+      "event": "XD V",
+      "placing": "17/32",
+      "points": 40.0
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 80.0,
+    "events": [
+     {
+      "event": "XD V",
+      "placing": "9/16",
+      "points": 40.0
+     },
+     {
+      "event": "WS A",
+      "placing": "5/8",
+      "points": 40.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 130.0,
+    "events": [
+     {
+      "event": "XD A",
+      "placing": "3/4",
+      "points": 100.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     }
+    ]
+   }
+  ]
+ },
+ "Jonathan Jinu John": {
+  "member_id": "6409529",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=6409529",
+  "season_points": 2562.6,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylän Elokuun kansalliset",
+    "date": "2025-08-23",
+    "week": "2025-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a0487a54-a52c-4349-b4bf-be8a0aec3557",
+    "points": 168.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "3/4",
+      "points": 60.0
+     },
+     {
+      "event": "BS U13",
+      "placing": "1",
+      "points": 60.0
+     },
+     {
+      "event": "BD U13",
+      "placing": "1",
+      "points": 48.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 80.5,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "1",
+      "points": 48.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 30.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "FZ FORZA Kuopion kansalliset 2025",
+    "date": "2025-09-20",
+    "week": "2025-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/99192205-52bc-4123-b21c-68308e70e0ae",
+    "points": 152.5,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "1",
+      "points": 60.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "2",
+      "points": 50.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "3/4",
+      "points": 40.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Tammisaari/ Ekenäs kansalliset & juniorit 2025",
+    "date": "2025-10-18",
+    "week": "2025-42",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/935b490f-7785-4e1d-bf1f-0f2f61ecc738",
+    "points": 108.0,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "1",
+      "points": 84.0
+     },
+     {
+      "event": "XD U13",
+      "placing": "3/4",
+      "points": 24.0
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 190.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "2",
+      "points": 90.0
+     },
+     {
+      "event": "BD U17",
+      "placing": "3/4",
+      "points": 80.0
+     },
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 20.0
+     }
+    ]
+   },
+   {
+    "tournament": "BadU juniori-eliitti",
+    "date": "2025-11-22",
+    "week": "2025-47",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/72702ebe-68a4-4bb6-b022-784c04cd8cef",
+    "points": 162.3,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "3/4",
+      "points": 120.0
+     },
+     {
+      "event": "BD U13",
+      "placing": "5/8",
+      "points": 36.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "17/32",
+      "points": 6.3
+     }
+    ]
+   },
+   {
+    "tournament": "RaSu kansalliset + ikäluokat syksy 2025",
+    "date": "2025-12-06",
+    "week": "2025-49",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/ba50b26f-b4ff-4aad-a81f-66d947df4729",
+    "points": 100.0,
+    "events": [
+     {
+      "event": "BD U15",
+      "placing": "2",
+      "points": 70.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Mansen Sulan kansalliset",
+    "date": "2026-01-24",
+    "week": "2026-4",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/3b88ca33-1238-4774-a18f-7083892a13e3",
+    "points": 182.5,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "3/4",
+      "points": 120.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Saariston Juniori- ja Seniorieliitti 2026",
+    "date": "2026-02-07",
+    "week": "2026-6",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/3a4f330c-1d6c-422f-b090-d570d21a7559",
+    "points": 300.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 150.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "3/4",
+      "points": 150.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 192.5,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "2",
+      "points": 140.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "2",
+      "points": 50.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Tapion Sulan juniorieliitti 2026",
+    "date": "2026-03-21",
+    "week": "2026-12",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/bd62f89b-24cd-4196-b3c6-649c44242fa8",
+    "points": 225.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 150.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "5/8",
+      "points": 75.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 98.8,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "2",
+      "points": 90.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 5.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "U17-15 SM ja ikäluokkamestaruudet",
+    "date": "2026-04-11",
+    "week": "2026-15",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/6d393ea3-17f8-4640-a2a2-06f65545a804",
+    "points": 360.0,
+    "events": [
+     {
+      "event": "BD U15",
+      "placing": "5/8",
+      "points": 240.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "17/32",
+      "points": 120.0
+     }
+    ]
+   },
+   {
+    "tournament": "Tampereen Kansalliset 2026",
+    "date": "2026-04-18",
+    "week": "2026-16",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/356a7ede-c27c-4ec1-afc6-304aefd31afa",
+    "points": 170.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "5/8",
+      "points": 90.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "3/4",
+      "points": 60.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "5/8",
+      "points": 20.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 72.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "5/8",
+      "points": 70.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Pauli Alapukki": {
+  "member_id": "6336010",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=6336010",
+  "season_points": 2302.5,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylän Elokuun kansalliset",
+    "date": "2025-08-23",
+    "week": "2025-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a0487a54-a52c-4349-b4bf-be8a0aec3557",
+    "points": 220.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "3/4",
+      "points": 180.0
+     },
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 40.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 360.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "3/4",
+      "points": 180.0
+     },
+     {
+      "event": "MD B",
+      "placing": "2",
+      "points": 180.0
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 127.5,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "3/4",
+      "points": 120.0
+     },
+     {
+      "event": "MS A",
+      "placing": "9/16",
+      "points": 5.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Hämeenlinnan Sulkapalloilijoiden 50 v. Premier Eliitti",
+    "date": "2026-01-03",
+    "week": "2026-1",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/9f8107cd-9d83-450e-8582-8cd113866db4",
+    "points": 810.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "5/8",
+      "points": 585.0
+     },
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 225.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 125.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "3/4",
+      "points": 120.0
+     },
+     {
+      "event": "MS A",
+      "placing": "9/16",
+      "points": 5.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 240.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "5/8",
+      "points": 240.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 240.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "1",
+      "points": 240.0
+     }
+    ]
+   },
+   {
+    "tournament": "Arctic Open 2026, Luleå, Sweden (Nationell)",
+    "date": "",
+    "week": "2026-9",
+    "url": "",
+    "points": 180.0,
+    "events": [
+     {
+      "event": "",
+      "placing": "9/16",
+      "points": 130.0
+     },
+     {
+      "event": "",
+      "placing": "3/4",
+      "points": 50.0
+     }
+    ]
+   }
+  ]
+ },
+ "Aki-Petteri Pokka": {
+  "member_id": "2648137",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2648137",
+  "season_points": 2245.0,
+  "tournaments": [
+   {
+    "tournament": "Hämeenlinnan Sulkapalloilijoiden 50 v. Premier Eliitti",
+    "date": "2026-01-03",
+    "week": "2026-1",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/9f8107cd-9d83-450e-8582-8cd113866db4",
+    "points": 775.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "9/16",
+      "points": 325.0
+     },
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 320.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 130.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 1140.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "2",
+      "points": 900.0
+     },
+     {
+      "event": "MS B",
+      "placing": "5/8",
+      "points": 240.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 330.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "2",
+      "points": 180.0
+     },
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 150.0
+     }
+    ]
+   }
+  ]
+ },
+ "Hoang Nguyen": {
+  "member_id": "5254338",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=5254338",
+  "season_points": 2177.5,
+  "tournaments": [
+   {
+    "tournament": "Hämeenlinnan Sulkapalloilijoiden 50 v. Premier Eliitti",
+    "date": "2026-01-03",
+    "week": "2026-1",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/9f8107cd-9d83-450e-8582-8cd113866db4",
+    "points": 500.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 320.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 130.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "5/8",
+      "points": 50.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 167.5,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 150.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "9/16",
+      "points": 12.5
+     },
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 5.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 1280.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "2",
+      "points": 900.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "3/4",
+      "points": 200.0
+     },
+     {
+      "event": "XD C",
+      "placing": "1",
+      "points": 180.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 230.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 150.0
+     },
+     {
+      "event": "XD B",
+      "placing": "3/4",
+      "points": 80.0
+     }
+    ]
+   }
+  ]
+ },
+ "Nuwan Withanage": {
+  "member_id": "9363921",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9363921",
+  "season_points": 1342.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 590.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "1",
+      "points": 560.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Sulkasadon kansalliset kilpailut",
+    "date": "2026-04-11",
+    "week": "2026-15",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a1f3ca61-7857-4d33-959f-92592b154c96",
+    "points": 62.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 60.0
+     },
+     {
+      "event": "MD B",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "FZ Forza BadU Premier Eliitti",
+    "date": "2026-05-09",
+    "week": "2026-19",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/115bd4c0-38ca-4ec2-81a4-bcaaf97059d7",
+    "points": 40.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "17/32",
+      "points": 40.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 50.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "5/8",
+      "points": 50.0
+     }
+    ]
+   },
+   {
+    "tournament": "Tampereen Kesäkansalliset 2026",
+    "date": "2026-06-06",
+    "week": "2026-23",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d8d18450-b2ca-4166-873e-336b39d98acb",
+    "points": 600.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "1",
+      "points": 600.0
+     }
+    ]
+   }
+  ]
+ },
+ "Veetu Kyllönen": {
+  "member_id": "2698045",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698045",
+  "season_points": 1080.0,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 280.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 280.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 560.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 560.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 240.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 240.0
+     }
+    ]
+   }
+  ]
+ },
+ "Kyösti Alaruikka": {
+  "member_id": "2698036",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698036",
+  "season_points": 1067.5,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 75.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MS 35",
+      "placing": "5/8",
+      "points": 12.5
+     },
+     {
+      "event": "XD B",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Hämeenlinnan Sulkapalloilijoiden 50 v. Premier Eliitti",
+    "date": "2026-01-03",
+    "week": "2026-1",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/9f8107cd-9d83-450e-8582-8cd113866db4",
+    "points": 290.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 225.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "5/8",
+      "points": 50.0
+     },
+     {
+      "event": "MS 55",
+      "placing": "5/8",
+      "points": 15.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 105.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 90.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "9/16",
+      "points": 12.5
+     },
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 400.0,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "3/4",
+      "points": 200.0
+     },
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 150.0
+     },
+     {
+      "event": "XD 35",
+      "placing": "3/4",
+      "points": 50.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 197.5,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "3/4",
+      "points": 120.0
+     },
+     {
+      "event": "MS C",
+      "placing": "5/8",
+      "points": 70.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 7.5
+     }
+    ]
+   }
+  ]
+ },
+ "Naitik Diwate": {
+  "member_id": "6881975",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=6881975",
+  "season_points": 1008.8,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylän Elokuun kansalliset",
+    "date": "2025-08-23",
+    "week": "2025-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a0487a54-a52c-4349-b4bf-be8a0aec3557",
+    "points": 12.5,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 7.5
+     },
+     {
+      "event": "BD U17",
+      "placing": "3/4",
+      "points": 5.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 90.0,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "FZ FORZA Kuopion kansalliset 2025",
+    "date": "2025-09-20",
+    "week": "2025-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/99192205-52bc-4123-b21c-68308e70e0ae",
+    "points": 60.0,
+    "events": [
+     {
+      "event": "BD U15",
+      "placing": "2",
+      "points": 50.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "5/8",
+      "points": 5.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 2.5
+     },
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 170.0,
+    "events": [
+     {
+      "event": "BD U17",
+      "placing": "3/4",
+      "points": 80.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 47.5,
+    "events": [
+     {
+      "event": "BD U15",
+      "placing": "3/4",
+      "points": 40.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 5.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 182.5,
+    "events": [
+     {
+      "event": "BD U17",
+      "placing": "2",
+      "points": 100.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "3/4",
+      "points": 80.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 213.8,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 150.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "Sulkasadon kansalliset kilpailut",
+    "date": "2026-04-11",
+    "week": "2026-15",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a1f3ca61-7857-4d33-959f-92592b154c96",
+    "points": 222.5,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "1",
+      "points": 160.0
+     },
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 60.0
+     },
+     {
+      "event": "MD B",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 10.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 7.5
+     },
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Pragha Santhana": {
+  "member_id": "4474711",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=4474711",
+  "season_points": 995.0,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 90.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "FZ FORZA Kuopion kansalliset 2025",
+    "date": "2025-09-20",
+    "week": "2025-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/99192205-52bc-4123-b21c-68308e70e0ae",
+    "points": 200.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "3/4",
+      "points": 180.0
+     },
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 20.0
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 160.0,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "1",
+      "points": 100.0
+     },
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 60.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 180.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 90.0
+     },
+     {
+      "event": "XD C",
+      "placing": "2",
+      "points": 90.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 285.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 150.0
+     },
+     {
+      "event": "XD C",
+      "placing": "2",
+      "points": 135.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 77.5,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "2",
+      "points": 70.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 7.5
+     }
+    ]
+   }
+  ]
+ },
+ "Narasimhulu Thoti": {
+  "member_id": "7904569",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=7904569",
+  "season_points": 972.6,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 30.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 2.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 243.8,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "2",
+      "points": 225.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "9/16",
+      "points": 12.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 6.3
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 503.8,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "2",
+      "points": 350.0
+     },
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 150.0
+     },
+     {
+      "event": "XD B",
+      "placing": "5/8",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 142.5,
+    "events": [
+     {
+      "event": "XD B",
+      "placing": "2",
+      "points": 140.0
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 47.5,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "3/4",
+      "points": 40.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 7.5
+     }
+    ]
+   }
+  ]
+ },
+ "Tapani Kilpi": {
+  "member_id": "2377305",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377305",
+  "season_points": 965.1,
+  "tournaments": [
+   {
+    "tournament": "Sulkakauppa ESB Elite 2025",
+    "date": "2025-08-16",
+    "week": "2025-33",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/b03c7f8b-ab1f-4d6a-83e2-e97ae9435d8c",
+    "points": 3.8,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Stadin Sulan Eliitti 2025",
+    "date": "2025-10-04",
+    "week": "2025-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4e97ee13-bae8-487f-9cc9-b8fc4005955a",
+    "points": 3.8,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "Helsinki Open Premier Elite",
+    "date": "2025-10-24",
+    "week": "2025-43",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/ea65d995-5511-4901-8320-94b21df1cbb8",
+    "points": 125.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 125.0
+     }
+    ]
+   },
+   {
+    "tournament": "Osukon syyskisat",
+    "date": "2025-11-15",
+    "week": "2025-46",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df7d865d-5974-453f-8565-0d7bd5248e77",
+    "points": 50.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 50.0
+     }
+    ]
+   },
+   {
+    "tournament": "Osukon Härkäkisat",
+    "date": "2026-02-28",
+    "week": "2026-9",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c3128e09-ddf0-4bb8-9fff-25088c6d8077",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "FZ Forza Sulkapallon Nuorten ja Senioreiden SM-kilpailut 2026",
+    "date": "2026-03-06",
+    "week": "2026-10",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/ccc0d31d-7f9e-42f9-a9b4-bd4dc9b1cea6",
+    "points": 500.0,
+    "events": [
+     {
+      "event": "MD 60",
+      "placing": "5/8",
+      "points": 480.0
+     },
+     {
+      "event": "MS 60",
+      "placing": "9/16",
+      "points": 20.0
+     }
+    ]
+   },
+   {
+    "tournament": "SMASH Kansallinen",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/70c725b6-ee01-4d57-b77a-c9bb6816b2e8",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "ABC-luokkamestaruudet",
+    "date": "2026-05-02",
+    "week": "2026-18",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d785fb2c-4571-4735-b92a-3a45af842925",
+    "points": 7.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 7.5
+     }
+    ]
+   },
+   {
+    "tournament": "FZ Forza BadU Premier Eliitti",
+    "date": "2026-05-09",
+    "week": "2026-19",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/115bd4c0-38ca-4ec2-81a4-bcaaf97059d7",
+    "points": 150.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 150.0
+     }
+    ]
+   },
+   {
+    "tournament": "Open Nordic Senior Championship 2026 (Seniori-Eliitti)",
+    "date": "2026-06-12",
+    "week": "2026-24",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/890c5523-b901-4f9f-baf9-c7903caddc7b",
+    "points": 120.0,
+    "events": [
+     {
+      "event": "MS 60",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MD 60",
+      "placing": "5/8",
+      "points": 60.0
+     }
+    ]
+   }
+  ]
+ },
+ "Sami Gröhn": {
+  "member_id": "2698046",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698046",
+  "season_points": 962.5,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 455.0,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "2",
+      "points": 450.0
+     },
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 5.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 490.0,
+    "events": [
+     {
+      "event": "MD 45",
+      "placing": "1",
+      "points": 300.0
+     },
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 150.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 40.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 17.5,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "3/4",
+      "points": 12.5
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 5.0
+     }
+    ]
+   }
+  ]
+ },
+ "Ajith Kutty": {
+  "member_id": "2698034",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698034",
+  "season_points": 925.1,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 105.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "3/4",
+      "points": 90.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "9/16",
+      "points": 12.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 12.6,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 6.3
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 6.3
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 120.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MD 40",
+      "placing": "3/4",
+      "points": 40.0
+     },
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 20.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 147.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "5/8",
+      "points": 105.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "5/8",
+      "points": 12.5
+     }
+    ]
+   },
+   {
+    "tournament": "Sulkasadon kansalliset kilpailut",
+    "date": "2026-04-11",
+    "week": "2026-15",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a1f3ca61-7857-4d33-959f-92592b154c96",
+    "points": 440.0,
+    "events": [
+     {
+      "event": "MS 40",
+      "placing": "1",
+      "points": 320.0
+     },
+     {
+      "event": "MS C",
+      "placing": "3/4",
+      "points": 90.0
+     },
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 100.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "2",
+      "points": 90.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 7.5
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Yujie Dong": {
+  "member_id": "2698051",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698051",
+  "season_points": 905.0,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 102.5,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "1",
+      "points": 100.0
+     },
+     {
+      "event": "XD B",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 90.0,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "2",
+      "points": 90.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 490.0,
+    "events": [
+     {
+      "event": "XD 35",
+      "placing": "2",
+      "points": 250.0
+     },
+     {
+      "event": "XD C",
+      "placing": "2",
+      "points": 135.0
+     },
+     {
+      "event": "WD C",
+      "placing": "2",
+      "points": 105.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 142.5,
+    "events": [
+     {
+      "event": "XD B",
+      "placing": "2",
+      "points": 140.0
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 80.0,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "2",
+      "points": 70.0
+     },
+     {
+      "event": "WD C",
+      "placing": "3/4",
+      "points": 10.0
+     }
+    ]
+   }
+  ]
+ },
+ "Jaakko Raasakka": {
+  "member_id": "2377349",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377349",
+  "season_points": 875.0,
+  "tournaments": [
+   {
+    "tournament": "FZ FORZA Kuopion kansalliset 2025",
+    "date": "2025-09-20",
+    "week": "2025-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/99192205-52bc-4123-b21c-68308e70e0ae",
+    "points": 550.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "2",
+      "points": 220.0
+     },
+     {
+      "event": "MS B",
+      "placing": "3/4",
+      "points": 180.0
+     },
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 150.0
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 325.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "3/4",
+      "points": 200.0
+     },
+     {
+      "event": "MD B",
+      "placing": "3/4",
+      "points": 120.0
+     },
+     {
+      "event": "MS B",
+      "placing": "9/16",
+      "points": 5.0
+     }
+    ]
+   }
+  ]
+ },
+ "Elisa Hernetkoski": {
+  "member_id": "2698042",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698042",
+  "season_points": 702.5,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 82.5,
+    "events": [
+     {
+      "event": "XD B",
+      "placing": "3/4",
+      "points": 80.0
+     },
+     {
+      "event": "WD B",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 460.0,
+    "events": [
+     {
+      "event": "XD B",
+      "placing": "2",
+      "points": 280.0
+     },
+     {
+      "event": "WD C",
+      "placing": "2",
+      "points": 105.0
+     },
+     {
+      "event": "WS C",
+      "placing": "2",
+      "points": 75.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 160.0,
+    "events": [
+     {
+      "event": "XD B",
+      "placing": "3/4",
+      "points": 80.0
+     },
+     {
+      "event": "WD C",
+      "placing": "1",
+      "points": 80.0
+     }
+    ]
+   }
+  ]
+ },
+ "Antti Ropponen": {
+  "member_id": "6298489",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=6298489",
+  "season_points": 631.3,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 142.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "1",
+      "points": 140.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 56.3,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 50.0
+     },
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 6.3
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 62.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 210.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "5/8",
+      "points": 105.0
+     },
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 105.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 160.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "1",
+      "points": 160.0
+     }
+    ]
+   }
+  ]
+ },
+ "Sunny Yang": {
+  "member_id": "9331922",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9331922",
+  "season_points": 603.8,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 603.8,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "2",
+      "points": 350.0
+     },
+     {
+      "event": "XD 35",
+      "placing": "2",
+      "points": 250.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
+ "Eeva-Liisa Kaikkonen": {
+  "member_id": "8287103",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8287103",
+  "season_points": 537.6,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 72.5,
+    "events": [
+     {
+      "event": "WS C",
+      "placing": "2",
+      "points": 70.0
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 12.5,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "3/4",
+      "points": 10.0
+     },
+     {
+      "event": "WD B",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 168.8,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "1",
+      "points": 150.0
+     },
+     {
+      "event": "WS C",
+      "placing": "3/4",
+      "points": 15.0
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "FZ Forza BadU Premier Eliitti",
+    "date": "2026-05-09",
+    "week": "2026-19",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/115bd4c0-38ca-4ec2-81a4-bcaaf97059d7",
+    "points": 231.3,
+    "events": [
+     {
+      "event": "WS C",
+      "placing": "3/4",
+      "points": 225.0
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 6.3
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 52.5,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "2",
+      "points": 50.0
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Parisa Rezaeei": {
+  "member_id": "8297046",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8297046",
+  "season_points": 531.3,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 225.0,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "2",
+      "points": 225.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 183.8,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "1",
+      "points": 180.0
+     },
+     {
+      "event": "XD B",
+      "placing": "5/8",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 120.0,
+    "events": [
+     {
+      "event": "XD B",
+      "placing": "3/4",
+      "points": 80.0
+     },
+     {
+      "event": "XD C",
+      "placing": "3/4",
+      "points": 40.0
+     }
+    ]
+   }
+  ]
+ },
+ "David Cristobal Hornillos": {
+  "member_id": "6150552",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=6150552",
+  "season_points": 513.8,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylän Elokuun kansalliset",
+    "date": "2025-08-23",
+    "week": "2025-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a0487a54-a52c-4349-b4bf-be8a0aec3557",
+    "points": 50.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "3/4",
+      "points": 40.0
+     },
+     {
+      "event": "MS 45",
+      "placing": "3/4",
+      "points": 7.5
+     },
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "FZ FORZA Kuopion kansalliset 2025",
+    "date": "2025-09-20",
+    "week": "2025-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/99192205-52bc-4123-b21c-68308e70e0ae",
+    "points": 252.5,
+    "events": [
+     {
+      "event": "MS 45",
+      "placing": "2",
+      "points": 150.0
+     },
+     {
+      "event": "MS C",
+      "placing": "3/4",
+      "points": 100.0
+     },
+     {
+      "event": "MS B",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 203.8,
+    "events": [
+     {
+      "event": "MS 35",
+      "placing": "3/4",
+      "points": 200.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 7.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 7.5
+     }
+    ]
+   }
+  ]
+ },
+ "Janne Jyrkkä": {
+  "member_id": "2648133",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2648133",
+  "season_points": 490.0,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 490.0,
+    "events": [
+     {
+      "event": "MD 45",
+      "placing": "1",
+      "points": 300.0
+     },
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 150.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 40.0
+     }
+    ]
+   }
+  ]
+ },
+ "Janne Raasakka": {
+  "member_id": "2698054",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698054",
+  "season_points": 405.0,
+  "tournaments": [
+   {
+    "tournament": "FZ FORZA Kuopion kansalliset 2025",
+    "date": "2025-09-20",
+    "week": "2025-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/99192205-52bc-4123-b21c-68308e70e0ae",
+    "points": 135.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "5/8",
+      "points": 120.0
+     },
+     {
+      "event": "MD 55",
+      "placing": "5/8",
+      "points": 15.0
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 270.0,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "5/8",
+      "points": 150.0
+     },
+     {
+      "event": "MD B",
+      "placing": "3/4",
+      "points": 120.0
+     }
+    ]
+   }
+  ]
+ },
+ "Henri Knuuttila": {
+  "member_id": "7837213",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=7837213",
+  "season_points": 370.0,
+  "tournaments": [
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 370.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "2",
+      "points": 130.0
+     },
+     {
+      "event": "MD B",
+      "placing": "3/4",
+      "points": 120.0
+     },
+     {
+      "event": "MD C",
+      "placing": "1",
+      "points": 120.0
+     }
+    ]
+   }
+  ]
+ },
+ "Joonas Raasakka": {
+  "member_id": "2377338",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377338",
+  "season_points": 370.0,
+  "tournaments": [
+   {
+    "tournament": "FZ FORZA Kuopion kansalliset 2025",
+    "date": "2025-09-20",
+    "week": "2025-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/99192205-52bc-4123-b21c-68308e70e0ae",
+    "points": 370.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "2",
+      "points": 220.0
+     },
+     {
+      "event": "MD A",
+      "placing": "5/8",
+      "points": 150.0
+     }
+    ]
+   }
+  ]
+ },
+ "Sanath K S": {
+  "member_id": "8337049",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8337049",
+  "season_points": 333.8,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 15.0,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "9/16",
+      "points": 12.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 203.8,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "3/4",
+      "points": 200.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 80.0,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "3/4",
+      "points": 50.0
+     },
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Sulkasadon kansalliset kilpailut",
+    "date": "2026-04-11",
+    "week": "2026-15",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a1f3ca61-7857-4d33-959f-92592b154c96",
+    "points": 30.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Jinu John": {
+  "member_id": "6887913",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=6887913",
+  "season_points": 252.5,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 17.5,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "9/16",
+      "points": 12.5
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 100.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MD 40",
+      "placing": "3/4",
+      "points": 40.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 42.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "5/8",
+      "points": 12.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 92.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "2",
+      "points": 90.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Veijo Höykinpuro": {
+  "member_id": "4473817",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=4473817",
+  "season_points": 240.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 180.0,
+    "events": [
+     {
+      "event": "MD 45",
+      "placing": "2",
+      "points": 150.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 60.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 60.0
+     }
+    ]
+   }
+  ]
+ },
+ "Esa Romppainen": {
+  "member_id": "2377387",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377387",
+  "season_points": 220.0,
+  "tournaments": [
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 220.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "1",
+      "points": 120.0
+     },
+     {
+      "event": "XD C",
+      "placing": "1",
+      "points": 100.0
+     }
+    ]
+   }
+  ]
+ },
+ "Bijith Kokkanchalil": {
+  "member_id": "8337050",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8337050",
+  "season_points": 215.0,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 15.0,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "9/16",
+      "points": 12.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 200.0,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "3/4",
+      "points": 200.0
+     }
+    ]
+   }
+  ]
+ },
+ "Harri Suhonen": {
+  "member_id": "2952487",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2952487",
+  "season_points": 192.5,
+  "tournaments": [
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 192.5,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "2",
+      "points": 180.0
+     },
+     {
+      "event": "MD 35",
+      "placing": "3/4",
+      "points": 12.5
+     }
+    ]
+   }
+  ]
+ },
+ "Juha Alakulppi": {
+  "member_id": "2648154",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2648154",
+  "season_points": 153.8,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 153.8,
+    "events": [
+     {
+      "event": "MD 45",
+      "placing": "2",
+      "points": 150.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
+ "Ashwath Kutty": {
+  "member_id": "8322098",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8322098",
+  "season_points": 136.5,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 1.5,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "9/16",
+      "points": 1.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 30.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Sulkasadon kansalliset kilpailut",
+    "date": "2026-04-11",
+    "week": "2026-15",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a1f3ca61-7857-4d33-959f-92592b154c96",
+    "points": 100.0,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "2",
+      "points": 100.0
+     }
+    ]
+   }
+  ]
+ },
+ "Longguang Qin": {
+  "member_id": "9281059",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9281059",
+  "season_points": 136.3,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 22.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 20.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 33.8,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 80.0,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "3/4",
+      "points": 50.0
+     },
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   }
+  ]
+ },
+ "Flemming Lewerken": {
+  "member_id": "9285288",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9285288",
+  "season_points": 122.5,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 62.5,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 60.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     }
+    ]
+   }
+  ]
+ },
+ "Anniina Saarela": {
+  "member_id": "9278908",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9278908",
+  "season_points": 110.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 105.0,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "3/4",
+      "points": 60.0
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 45.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "5/8",
+      "points": 2.5
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Toni Ruokanen": {
+  "member_id": "9484040",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9484040",
+  "season_points": 102.5,
+  "tournaments": [
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 102.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "3/4",
+      "points": 100.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Nipun Waas": {
+  "member_id": "9318269",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9318269",
+  "season_points": 97.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 60.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 32.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     },
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Markus Heikkinen": {
+  "member_id": "2377313",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2377313",
+  "season_points": 96.3,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 16.3,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 16.3
+     }
+    ]
+   },
+   {
+    "tournament": "Ling-Mei Sulkaset Eliitti 2026",
+    "date": "2026-02-14",
+    "week": "2026-7",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/33256941-9560-4cea-a861-57f8a03226e6",
+    "points": 80.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 80.0
+     }
+    ]
+   }
+  ]
+ },
+ "Zhuo Su": {
+  "member_id": "9252747",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9252747",
+  "season_points": 92.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 60.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 22.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 20.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 10.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 7.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Haidong Wu": {
+  "member_id": "9137307",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9137307",
+  "season_points": 87.6,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 6.3,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 6.3
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 78.8,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 45.0
+     },
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Vidyavati Marinagammanavar": {
+  "member_id": "9309407",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9309407",
+  "season_points": 78.8,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 15.0,
+    "events": [
+     {
+      "event": "XD 35",
+      "placing": "5/8",
+      "points": 12.5
+     },
+     {
+      "event": "WD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 63.8,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "3/4",
+      "points": 60.0
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
+ "Juhana Paaso": {
+  "member_id": "7143531",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=7143531",
+  "season_points": 68.8,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 10.0,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 5.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 2.5
+     },
+     {
+      "event": "BD U15",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 12.5,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 5.0
+     },
+     {
+      "event": "BD U17",
+      "placing": "5/8",
+      "points": 5.0
+     },
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 38.8,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 5.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 7.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 5.0
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Pragnesh Prajapati": {
+  "member_id": "8262703",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8262703",
+  "season_points": 67.7,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 30.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 2.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Jyväskylä Premier Elite 2025",
+    "date": "2025-11-29",
+    "week": "2025-48",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/751fb6b2-e4f2-45f4-8cd1-abd583d1fb4a",
+    "points": 25.1,
+    "events": [
+     {
+      "event": "MD 35",
+      "placing": "9/16",
+      "points": 12.5
+     },
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 6.3
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 6.3
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 7.6,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 3.8
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
+ "Ashlyn Jinu": {
+  "member_id": "7142812",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=7142812",
+  "season_points": 64.3,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan Kansalliset",
+    "date": "2025-08-30",
+    "week": "2025-35",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/2d81a87d-1c30-48aa-b550-daa64a9d442b",
+    "points": 1.5,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "5/8",
+      "points": 1.5
+     }
+    ]
+   },
+   {
+    "tournament": "Tammisaari/ Ekenäs kansalliset & juniorit 2025",
+    "date": "2025-10-18",
+    "week": "2025-42",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/935b490f-7785-4e1d-bf1f-0f2f61ecc738",
+    "points": 24.8,
+    "events": [
+     {
+      "event": "XD U13",
+      "placing": "3/4",
+      "points": 24.0
+     },
+     {
+      "event": "GS U11",
+      "placing": "3/4",
+      "points": 0.8
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 6.0,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "5/8",
+      "points": 6.0
+     }
+    ]
+   },
+   {
+    "tournament": "U17-15 SM ja ikäluokkamestaruudet",
+    "date": "2026-04-11",
+    "week": "2026-15",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/6d393ea3-17f8-4640-a2a2-06f65545a804",
+    "points": 32.0,
+    "events": [
+     {
+      "event": "GS U11",
+      "placing": "3/4",
+      "points": 32.0
+     }
+    ]
+   }
+  ]
+ },
+ "Abin Babu": {
+  "member_id": "8324084",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8324084",
+  "season_points": 63.8,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 25.0,
+    "events": [
+     {
+      "event": "MS 35",
+      "placing": "5/8",
+      "points": 12.5
+     },
+     {
+      "event": "XD 35",
+      "placing": "5/8",
+      "points": 12.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 33.8,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan Kansalliset 2026",
+    "date": "2026-04-04",
+    "week": "2026-14",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d3356308-9b50-43a8-96dd-5adc1b98cc5f",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Diana Volkhonskaia": {
+  "member_id": "9309408",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9309408",
+  "season_points": 52.5,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 50.0,
+    "events": [
+     {
+      "event": "XD 35",
+      "placing": "3/4",
+      "points": 50.0
+     }
+    ]
+   }
+  ]
+ },
+ "Viktor Cristobal": {
+  "member_id": "7138977",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=7138977",
+  "season_points": 45.0,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylän Elokuun kansalliset",
+    "date": "2025-08-23",
+    "week": "2025-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a0487a54-a52c-4349-b4bf-be8a0aec3557",
+    "points": 17.5,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 10.0
+     },
+     {
+      "event": "BD U17",
+      "placing": "3/4",
+      "points": 5.0
+     },
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "FZ FORZA Kuopion kansalliset 2025",
+    "date": "2025-09-20",
+    "week": "2025-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/99192205-52bc-4123-b21c-68308e70e0ae",
+    "points": 27.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 20.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 5.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Kare Hämeenaho": {
+  "member_id": "8287104",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8287104",
+  "season_points": 39.0,
+  "tournaments": [
+   {
+    "tournament": "Toholammin kansalliset 2025",
+    "date": "2025-11-01",
+    "week": "2025-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/30e4491f-cb72-4bf7-81af-611b643d5153",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 11.4,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 3.8
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 3.8
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "FZ Forza BadU Premier Eliitti",
+    "date": "2026-05-09",
+    "week": "2026-19",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/115bd4c0-38ca-4ec2-81a4-bcaaf97059d7",
+    "points": 12.6,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 6.3
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 6.3
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 10.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 7.5
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Eemil Manninen": {
+  "member_id": "9342414",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9342414",
+  "season_points": 37.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 30.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "65/128",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Tampereen Kesäkansalliset 2026",
+    "date": "2026-06-06",
+    "week": "2026-23",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d8d18450-b2ca-4166-873e-336b39d98acb",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     },
+     {
+      "event": "BS U15",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Elias Levy": {
+  "member_id": "9486650",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9486650",
+  "season_points": 32.5,
+  "tournaments": [
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 32.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "5/8",
+      "points": 30.0
+     },
+     {
+      "event": "MS C",
+      "placing": "65/128",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Yuhong Qiu-Kaikkonen": {
+  "member_id": "9239994",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9239994",
+  "season_points": 31.3,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 12.5,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "3/4",
+      "points": 10.0
+     },
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 18.8,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "5/8",
+      "points": 15.0
+     },
+     {
+      "event": "XD 55",
+      "placing": "5/8",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
+ "Miska Ojanen": {
+  "member_id": "9369902",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9369902",
+  "season_points": 30.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 30.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 30.0
+     }
+    ]
+   }
+  ]
+ },
+ "Shreeharsha B V": {
+  "member_id": "6888062",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=6888062",
+  "season_points": 30.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 30.0,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 30.0
+     }
+    ]
+   }
+  ]
+ },
+ "Senuka Weeraddana": {
+  "member_id": "8311835",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8311835",
+  "season_points": 30.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 30.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 30.0
+     }
+    ]
+   }
+  ]
+ },
+ "Swaraj Sabat": {
+  "member_id": "7468728",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=7468728",
+  "season_points": 24.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 24.0,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "3/4",
+      "points": 24.0
+     }
+    ]
+   }
+  ]
+ },
+ "Lenni Autio": {
+  "member_id": "7161988",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=7161988",
+  "season_points": 12.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "BS U17",
+      "placing": "9/16",
+      "points": 5.0
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 7.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 7.5
+     }
+    ]
+   }
+  ]
+ },
+ "Jesse Kynsilehto": {
+  "member_id": "9490506",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9490506",
+  "season_points": 10.0,
+  "tournaments": [
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 10.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 7.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Olli Komulainen": {
+  "member_id": "2952476",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2952476",
+  "season_points": 10.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 10.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 10.0
+     }
+    ]
+   }
+  ]
+ },
+ "Rita Kallio": {
+  "member_id": "9486403",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9486403",
+  "season_points": 10.0,
+  "tournaments": [
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 10.0,
+    "events": [
+     {
+      "event": "WD C",
+      "placing": "3/4",
+      "points": 10.0
+     }
+    ]
+   }
+  ]
+ },
+ "Chenyi Shao": {
+  "member_id": "9074222",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9074222",
+  "season_points": 8.8,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 3.8,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 2.5
+     },
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Aarush Navalde": {
+  "member_id": "8309802",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8309802",
+  "season_points": 7.5,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 6.0,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "3/4",
+      "points": 6.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 1.5,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "9/16",
+      "points": 1.5
+     }
+    ]
+   }
+  ]
+ },
+ "Sathvik Sanath": {
+  "member_id": "8322101",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8322101",
+  "season_points": 7.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 7.5,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 7.5
+     }
+    ]
+   }
+  ]
+ },
+ "Aleksi Laurila": {
+  "member_id": "9352848",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9352848",
+  "season_points": 6.3,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 3.8,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 3.8
+     }
+    ]
+   },
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Tommi Kaikkonen": {
+  "member_id": "9239995",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9239995",
+  "season_points": 6.3,
+  "tournaments": [
+   {
+    "tournament": "Kajaanin Kansalliset",
+    "date": "2026-02-21",
+    "week": "2026-8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/8d97b6ba-feeb-447a-b3e7-b89e975320f0",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 3.8,
+    "events": [
+     {
+      "event": "XD 55",
+      "placing": "5/8",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
+ "Nandhan Krishnamoorthy Thiyagarajan": {
+  "member_id": "8330387",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8330387",
+  "season_points": 6.0,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 6.0,
+    "events": [
+     {
+      "event": "BS U13",
+      "placing": "5/8",
+      "points": 6.0
+     }
+    ]
+   }
+  ]
+ },
+ "Sami Hätälä": {
+  "member_id": "2698041",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=2698041",
+  "season_points": 3.8,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 3.8,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
+ "Zhili Guo": {
+  "member_id": "9329659",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9329659",
+  "season_points": 3.8,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 3.8,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "9/16",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
+ "Mikael Oilinki": {
+  "member_id": "9342409",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9342409",
+  "season_points": 2.5,
+  "tournaments": [
+   {
+    "tournament": "HPC Kansalliset 2026",
+    "date": "2026-05-23",
+    "week": "2026-21",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/c9a75300-5ceb-447f-8323-3dbbff679be5",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "MS C",
+      "placing": "33/64",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Advaith Ankad": {
+  "member_id": "9358700",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=9358700",
+  "season_points": 2.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Ann Nelson": {
+  "member_id": "8322102",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53055&player=8322102",
+  "season_points": 1.5,
+  "tournaments": [
+   {
+    "tournament": "Kumpoo Tervasulan Eliitti 2026",
+    "date": "2026-03-28",
+    "week": "2026-13",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/077fa231-b428-43ba-844d-3689c1d977ed",
+    "points": 1.5,
+    "events": [
+     {
+      "event": "MK U13",
+      "placing": "9/16",
+      "points": 1.5
+     }
+    ]
+   }
+  ]
+ }
+}
