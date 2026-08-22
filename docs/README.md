@@ -206,10 +206,12 @@ tervasulka.fi. Four tabs:
 - **Overview** — stat strip and medalist cards sorted by medal count.
 - **Rankings** — every player, sorted by this-season ranking points, with a
   per-tournament points breakdown and links to official ranking pages.
-- **Divisions** — medalists per division (`Valio/Elite`, A, B, C, Junior, …),
-  ranked by season points earned *in that division's events*. Medal-row names
-  are folded onto canonical display names here, so a tournament that printed
-  a name differently (e.g. all-caps) still lands on the right card.
+- **Divisions** — every player with season points or a medal per division
+  (`Valio/Elite`, A, B, C, Junior, …), ranked by season points earned *in that
+  division's events*; non-medalists show an empty medal tally, so each player's
+  division points sum to their Rankings-tab total. Medal-row names are folded
+  onto canonical display names here, so a tournament that printed a name
+  differently (e.g. all-caps) still lands on the right card.
 - **Tournaments** — the kept tournament catalogue with entrant/medal counts.
 
 A *Method & notes* section on the page states the coverage rules for readers.

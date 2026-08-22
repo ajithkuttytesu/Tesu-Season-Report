@@ -82,6 +82,12 @@ a.nm{color:var(--red)}
 .botrow summary::after{content:" ▾"}
 .botrow details[open] summary{background:var(--dark);color:#fff;border-color:var(--dark)}
 .botrow details[open] summary::after{content:" ▴"}
+.ddbtns{display:flex;gap:8px;flex-wrap:wrap}
+.botrow .ddbtn{cursor:pointer;border:1px solid #000;background:#fff;color:#000;font-size:12px;font-weight:600;padding:4px 12px;margin:0;border-radius:0;font-family:inherit}
+.botrow .ddbtn::after{content:" ▾"}
+.botrow .ddbtn.open{background:var(--dark);color:#fff;border-color:var(--dark)}
+.botrow .ddbtn.open::after{content:" ▴"}
+.ddpanes>.evlist[hidden]{display:none}
 .evlist{font-size:13px;margin-top:10px;border-top:1px solid var(--gray);padding-top:8px}
 .evlist .ev{margin:0 0 7px}
 .evlist .ev:last-child{margin-bottom:0}
@@ -98,7 +104,7 @@ tr.medrow td{padding:2px 12px 12px}
 tr.medrow .evlist{border-top:none;margin:0;padding:0;text-align:left;columns:360px;column-gap:36px}
 tr.medrow .ev{break-inside:avoid}
 tr:has(+ tr.medrow.open) td{border-bottom:none}
-summary:focus-visible,.medbtn:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+summary:focus-visible,.medbtn:focus-visible,.ddbtn:focus-visible{outline:2px solid var(--red);outline-offset:2px}
 .medals{white-space:nowrap;font-size:13px;font-weight:600;color:#333}
 sup{color:var(--red);font-weight:700}.muted{color:var(--muted)}.pill{font-size:11px;background:var(--gray);color:#333;border-radius:4px;padding:1px 7px}
 .footer{background:var(--dark);color:#fff;margin-top:76px;text-align:center;padding:0 24px 26px}
@@ -151,6 +157,10 @@ function subtab(cls,id,btn){document.querySelectorAll('.'+cls).forEach(s=>s.styl
  btn.parentNode.querySelectorAll('button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
 function medrow(btn){var tr=btn.closest('tr').nextElementSibling;
  var open=tr.classList.toggle('open');btn.classList.toggle('open',open);btn.setAttribute('aria-expanded',open);}
+function dd(btn,i){var card=btn.closest('.pcard');var panes=card.querySelectorAll('.ddpanes>.evlist');
+ var open=panes[i].hidden;
+ card.querySelectorAll('.ddbtn').forEach(function(b){var on=open&&b===btn;b.classList.toggle('open',on);b.setAttribute('aria-expanded',on);});
+ panes.forEach(function(p,j){p.hidden=!(open&&j===i);});}
 """
 
 def logo_div():
@@ -198,8 +208,23 @@ def run():
     o.append("</div>")
 
     # ---------------- shared card template ----------------
-    def pcard(name_html, right_html, btn_label, detail_html, medals_html, bar_frac=None):
+    def pcard(name_html, right_html, btn_label, detail_html, medals_html, bar_frac=None,
+              btn2_label=None, detail2_html=None):
         bar = f'<div class="pbar"><i style="width:{bar_frac:.0%}"></i></div>' if bar_frac is not None else ""
+        if btn2_label is not None or detail2_html:
+            # two-dropdown variant: buttons share one panel area below the row and are
+            # mutually exclusive — dd() opens one pane and closes the other.
+            btns, panes = [], []
+            for label, html in ((btn_label, detail_html), (btn2_label, detail2_html)):
+                if not label:
+                    continue
+                btns.append(f'<button class="ddbtn" aria-expanded="false" '
+                            f'onclick="dd(this,{len(panes)})">{label}</button>')
+                panes.append(f'<div class="evlist" hidden>{html}</div>')
+            return (f'<div class="pcard"><div class="toprow">{name_html}{right_html}</div>{bar}'
+                    f'<div class="botrow"><span class="ddbtns">{"".join(btns)}</span>'
+                    f'<span class="medals">{medals_html}</span></div>'
+                    f'<div class="ddpanes">{"".join(panes)}</div></div>')
         det = (f'<details><summary>{btn_label}</summary><div class="evlist">{detail_html}</div></details>'
                if detail_html else f'<span class="muted" style="font-size:12px">{btn_label}</span>')
         return (f'<div class="pcard"><div class="toprow">{name_html}{right_html}</div>{bar}'
@@ -227,7 +252,7 @@ def run():
         n = p["total_medals"]
         nm = f'<span class="nm" title="{esc(p["name"])}"><span class="rkn">#{i}</span>{esc(p["name"])}</span>'
         right = f'<span class="pts">{n} <small>medal{"s" if n != 1 else ""}</small></span>'
-        o.append(pcard(nm, right, f'{n} result{"s" if n != 1 else ""}', "".join(lines),
+        o.append(pcard(nm, right, f'{n} medal{"s" if n != 1 else ""}', "".join(lines),
                        medal_tally(p["gold"], p["silver"], p["bronze"])))
     o.append("</div></section>")
 
@@ -316,12 +341,26 @@ def run():
                 partners = [x for x in m["all_players_in_entry"] if x not in m["tervasulka_players"]]
                 rec["results"].append((t["date"], t["tournament"], m["event"], m["medal"],
                                        partners, m["confidence"]))
+    # division -> player -> season points / event rows in that division's events; every
+    # player with points in a division is listed there too, medals or not.
+    pts_by_div = defaultdict(lambda: defaultdict(float))
+    ev_by_div = defaultdict(lambda: defaultdict(list))
+    for p in players:
+        for t in (p["ranking_tournaments"] or []):
+            for e in t["events"]:
+                d = T.division(e["event"])
+                pts_by_div[d][p["name"]] += e["points"]
+                ev_by_div[d][p["name"]].append((t["date"], t["tournament"], t["url"], t["week"], e))
+    for d, plmap in pts_by_div.items():
+        for pl, pts in plmap.items():
+            if pts > 0:
+                div_players[d][pl]  # defaultdict: creates an empty medal record
     present = [d for d in DIV_ORDER if div_players.get(d)]
-    pbyname = {p["name"]: p for p in players}
     o.append('<section id="dv" class="tab">')
-    o.append("<h2>Medalists by division</h2>")
-    o.append('<p class="intro">Each division lists its Tervasulka medalists ranked by season points earned '
-             'in that division’s events. Expand a player for the individual results.</p>')
+    o.append("<h2>Players by division</h2>")
+    o.append('<p class="intro">Each division lists every Tervasulka player with season points or a medal '
+             'in that division’s events, ranked by points earned there. The medals button expands the '
+             'podium results, the events button the point-earning results.</p>')
     o.append('<div class="subtabs">')
     for i, d in enumerate(present):
         n = len(div_players[d])
@@ -332,9 +371,7 @@ def run():
         o.append(f'<div class="divsec" id="div_{i}" style="display:{disp}">')
         def div_pts(pl):
             """Season points earned in this division's events (same classifier as the medal buckets)."""
-            pr = pbyname.get(pl)
-            return sum(e["points"] for t in (pr["ranking_tournaments"] or []) for e in t["events"]
-                       if T.division(e["event"]) == d) if pr else 0.0
+            return pts_by_div[d].get(pl, 0.0)
         ranked_pl = sorted(div_players[d].items(),
                            key=lambda kv: (-div_pts(kv[0]),
                                            -(kv[1]["g"]*100 + kv[1]["s"]*10 + kv[1]["b"]), kv[0]))
@@ -351,8 +388,19 @@ def run():
             dpts = div_pts(pl)
             right = (f'<span class="pts">{fp(dpts)} <small>pts</small></span>' if dpts
                      else '<span class="pts muted">&mdash; <small>pts</small></span>')
-            o.append(pcard(nm, right, f'{tot} result{"s" if tot != 1 else ""}', "".join(lines),
-                           medal_tally(rec["g"], rec["s"], rec["b"])))
+            ev_rows = ev_by_div[d].get(pl, [])
+            ev_lines = []
+            for date, tn, url, week, e in sorted(ev_rows, key=lambda r: -r[4]["points"]):
+                link = f'<a href="{esc(url)}" target="_blank">{esc(tn)}</a>' if url else esc(tn)
+                dt = fd(date) if date else f'wk {esc(week)}'
+                ev_lines.append(f'<div class="ev"><span class="evl" title="{esc(tn)}">'
+                                f'<b>{fp(e["points"])}</b> &mdash; {esc(e["event"])} {esc(e["placing"])}</span>'
+                                f'<span class="sub">{dt} &middot; {link}</span></div>')
+            mbtn = f'{tot} medal{"s" if tot != 1 else ""}' if tot else None
+            ebtn = f'{len(ev_rows)} event{"s" if len(ev_rows) != 1 else ""}' if ev_rows else None
+            o.append(pcard(nm, right, mbtn, "".join(lines),
+                           medal_tally(rec["g"], rec["s"], rec["b"]),
+                           btn2_label=ebtn, detail2_html="".join(ev_lines)))
         o.append("</div></div>")
     o.append("</section>")
 
