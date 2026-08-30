@@ -1,7 +1,12 @@
-# Tervasulka 2025–26 season — dataset
+# Tervasulka season datasets
 
-Scraped from **badmintonfinland.tournamentsoftware.com** (season Aug 2025 – Jun 2026).
-Regenerate with `../src/run_all.py` (full build docs: `../docs/README.md`). Generated 2026-08-09.
+Scraped from **badmintonfinland.tournamentsoftware.com**. One folder per season
+(`2025-26/`, `2026-27/`, …), each holding the same set of files documented
+below. The season registry (dates, pinned ranking publication, status) is
+`../src/seasons.json`. Regenerate the ongoing season with `../src/refresh.py`,
+any season with `../src/run_all.py --season <key>` (full build docs:
+`../docs/README.md`). A `final` season's folder is frozen — git is
+authoritative for it.
 
 Only tournaments on the **official ranking list** of the pinned ranking publication
 (`/ranking/tournaments.aspx?id=…`) are included; local pool, school and club-internal
@@ -12,8 +17,8 @@ events award no ranking points and are excluded, medals included.
 | File | Format | Contents |
 |------|--------|----------|
 | `players.json` | JSON | **Per-player record** — tournaments entered, medals (G/S/B), ranking points + breakdown, ranking-page link. Built from entry lists, so includes non-medalists. |
-| `tournaments.json` | JSON | Catalogue of the **55** ranking-list tournaments + metadata and links. |
-| `tervasulka_medals.json` | JSON | Podium results grouped by tournament (26 tournaments). |
+| `tournaments.json` | JSON | Catalogue of the season's ranking-list tournaments + metadata and links. |
+| `tervasulka_medals.json` | JSON | Podium results grouped by tournament. |
 | `tervasulka_medals.csv` | CSV (UTF-8 BOM) | Flat one-row-per (player, medal); has a `division` column. Opens in Excel. |
 
 Intermediates (regenerable, used between pipeline steps): `tournaments_raw.tsv`,
@@ -38,13 +43,13 @@ Per tournament: `date`, `tournament`, `location`, `url`, `medals[]` with
 - **Roster source**: tournament entry lists (everyone who competed), not the winners list.
 - **Divisions**: events classified into `Valio/Elite`, `A`, `B`, `C`, `D`, `Junior`, `Senior`.
 - **Ranking points**: read from each player's official ranking page, counting only results from
-  **this season's** tournaments (ISO weeks 2025-W33 … 2026-W26 — the official ranking total uses a
+  **this season's** tournaments (the season's ISO-week window from `seasons.json` — the official ranking total uses a
   longer rolling window that mixes in the previous season). All divisions are included (open, junior
   U-age, senior/veteran 35+…). Identical rows that re-rank the same result across class lists are
   de-duplicated. A few results are foreign events (Sweden, international series) not in the domestic
   catalogue; their points count but they have no domestic link.
 - **`confidence`**: `confirmed` (club read from that tournament's entry list) or
   `roster-inferred` (entry list showed nationality only; club matched against the season roster).
-- **Coverage vs PDF calendar**: all 52 individual national tournaments from the official PDF are included
+- **Coverage vs PDF calendar** (2025-26): all 52 individual national tournaments from the official PDF are included
   (plus regional/local events). Out of scope: Arctic Open & BE Junior Circuit (BWF platform) and
   Joukkue-SM & Junioreiden joukkuekisa (team events — winners are clubs, not individuals).

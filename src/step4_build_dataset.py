@@ -170,4 +170,8 @@ def run():
           f"tervasulka_medals.json ({len(med)}), .csv")
 
 if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--season", help="season key from seasons.json, default: ongoing")
+    T.configure(ap.parse_args().season)
     run()

@@ -22,7 +22,6 @@ that the tournament page does not show) is reported but never deleted.
 """
 import os, json, sys
 import twlib as T
-import step3_rankings as S3
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
@@ -50,7 +49,7 @@ def run():
                 return e
         return None
 
-    season = [t for t in T.ranking_tournament_index() if S3.in_season(t["week"])]
+    season = [t for t in T.ranking_tournament_index() if T.in_season(t["week"])]
     n_rows = n_ok = 0
     added_players, added_tours, fixed, warns = [], [], [], []
     touched = set()
@@ -124,7 +123,7 @@ def run():
 
     for name in touched:
         rec = ranks[name]
-        rec["tournaments"].sort(key=lambda x: (x["date"] or f"wk{S3.week_key(x['week']):06d}"))
+        rec["tournaments"].sort(key=lambda x: (x["date"] or f"wk{T.week_key(x['week']):06d}"))
         rec["season_points"] = round(sum(t["points"] for t in rec["tournaments"]), 1)
 
     ranks = dict(sorted(ranks.items(), key=lambda kv: -kv[1]["season_points"]))
@@ -142,4 +141,8 @@ def run():
 
 
 if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--season", help="season key from seasons.json, default: ongoing")
+    T.configure(ap.parse_args().season)
     run()

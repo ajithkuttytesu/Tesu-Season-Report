@@ -1,0 +1,76 @@
+[
+ {
+  "season": "2025-26",
+  "label": "2025–26",
+  "start": "2025-08-01T00:00",
+  "end": "2026-06-30T00:00",
+  "week_start": [
+   2025,
+   33
+  ],
+  "week_end": [
+   2026,
+   26
+  ],
+  "publication": "53055",
+  "categories": {
+   "2218": "open",
+   "2219": "open",
+   "2220": "open",
+   "2221": "open",
+   "5041": "open",
+   "5064": "open",
+   "5036": "Juniorit",
+   "5037": "Juniorit",
+   "5038": "Juniorit",
+   "5039": "Juniorit",
+   "5055": "Juniorit",
+   "5078": "Juniorit",
+   "5094": "Seniorit",
+   "5095": "Seniorit",
+   "5096": "Seniorit",
+   "5097": "Seniorit",
+   "5099": "Seniorit",
+   "5100": "Seniorit"
+  },
+  "status": "final",
+  "generated": "2026-08-09"
+ },
+ {
+  "season": "2026-27",
+  "label": "2026–27",
+  "start": "2026-07-01T00:00",
+  "end": "2027-06-30T00:00",
+  "week_start": [
+   2026,
+   27
+  ],
+  "week_end": [
+   2027,
+   26
+  ],
+  "publication": "53447",
+  "categories": {
+   "2218": "open",
+   "2219": "open",
+   "2220": "open",
+   "2221": "open",
+   "5041": "open",
+   "5064": "open",
+   "5036": "Juniorit",
+   "5037": "Juniorit",
+   "5038": "Juniorit",
+   "5039": "Juniorit",
+   "5055": "Juniorit",
+   "5078": "Juniorit",
+   "5094": "Seniorit",
+   "5095": "Seniorit",
+   "5096": "Seniorit",
+   "5097": "Seniorit",
+   "5099": "Seniorit",
+   "5100": "Seniorit"
+  },
+  "status": "ongoing",
+  "generated": "2026-08-25"
+ }
+]

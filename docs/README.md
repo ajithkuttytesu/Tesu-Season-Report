@@ -1,44 +1,73 @@
 # Tervasulka Season Report — build documentation
 
-How the Tervasulka 2025–26 season report (`index.html`) and its dataset
-(`data/*.json`, `data/*.csv`) are built from
-**badmintonfinland.tournamentsoftware.com**.
+How the Tervasulka season reports (`Output/index.html` for the ongoing season,
+`Output/<season>.html` for finished ones) and their datasets (`data/<season>/*.json`,
+`*.csv`) are built from **badmintonfinland.tournamentsoftware.com**.
 
-Last updated: 2026-08-09.
+Last updated: 2026-08-23.
+
+## Seasons
+
+The project holds one report per season. All season-specific values live in
+**`src/seasons.json`** — one entry per season with its date range
+(`start`/`end`, used by the tournament search), ISO-week window
+(`week_start`/`week_end`, used to filter ranking results), pinned ranking
+`publication` id, member-discovery `categories`, `status`
+(`ongoing` | `final`) and `generated` date.
+
+Per-season layout:
+
+```
+src/seasons.json           season registry (the only place season values live)
+data/<season>/             dataset of one season (e.g. data/2025-26/)
+.cache/<season>/           cached HTTP fetches of one season
+assets/logo-tervasulka.svg shared, season-neutral assets
+Output/index.html          report page of the ONGOING season
+Output/<season>.html       frozen report page of each finished season
+Output/tervasulka-report.html  single-file share variant: ALL seasons in one HTML
+```
+
+`twlib.configure(season)` points the pipeline at one season (default: the
+single `ongoing` entry); every step accepts `--season <key>`. A finished
+season's page is frozen: its data, publication id and `generated` date never
+change, and it is only re-rendered to keep the season-switcher navigation in
+sync (deterministic, no network).
 
 ## Overview
 
 The build is a six-step Python pipeline in `src/`. Each step reads the output
-of the previous one and writes into `data/`; the final step renders the
-self-contained report page `index.html` at the repository root.
+of the previous one and writes into `data/<season>/`; the final step renders
+the self-contained report page into `Output/`.
 
 ```
 tournamentsoftware.com
         │
         ▼
-step1_list_tournaments.py   → data/tournaments_raw.tsv     (all season events)
+step1_list_tournaments.py   → data/<season>/tournaments_raw.tsv  (all season events)
         ▼
-step2_entries_winners.py    → data/_fulldata.json          (entries, roster, podiums)
+step2_entries_winners.py    → data/<season>/_fulldata.json       (entries, roster, podiums)
         ▼
-step3_rankings.py           → data/_rankings.json          (ranking points per player)
+step3_rankings.py           → data/<season>/_rankings.json       (ranking points per player)
         ▼
-step3b_crosscheck.py        → data/_rankings.json          (verified/patched against
-        ▼                                                   per-tournament points pages)
-step4_build_dataset.py      → data/players.json, tournaments.json,
+step3b_crosscheck.py        → data/<season>/_rankings.json       (verified/patched against
+        ▼                                                         per-tournament points pages)
+step4_build_dataset.py      → data/<season>/players.json, tournaments.json,
                               tervasulka_medals.json, tervasulka_medals.csv
         ▼
-step5_build_html.py         → index.html                   (the report page)
+step5_build_html.py         → Output/index.html | <season>.html  (the report page)
 ```
 
 Run everything with:
 
 ```
 cd src
-py run_all.py          # or run the steps individually: py step1_... etc.
+py refresh.py                    # monthly update of the ongoing season (preferred)
+py run_all.py [--season 2025-26] # plain pipeline run for one season
+py step1_... [--season ...]      # or run the steps individually
 ```
 
-Every HTTP fetch is cached on disk in `.cache/` (see *Caching* below), so
-re-runs are fast and only fetch what is missing.
+Every HTTP fetch is cached on disk in `.cache/<season>/` (see *Caching*
+below), so re-runs are fast and only fetch what is missing.
 
 ## Requirements
 
@@ -57,10 +86,12 @@ Everything the steps have in common:
 - **Identifiers.**
   - `TERVA_RANKING_OGID` — Tervasulka's organisation GUID, used to club-filter
     ranking category pages.
-  - `RANKING_PUBLICATION` — the weekly ranking publication id everything is
-    pinned to (currently `53055`, the latest at the last refresh). **A
-    publication is a fixed snapshot**: re-fetching the same id returns the same
-    data, so refreshing means bumping this id (see *Maintenance*).
+  - `RANKING_PUBLICATION` — the weekly ranking publication id the configured
+    season is pinned to (per-season, from `seasons.json`; set by
+    `configure()`). **A publication is a fixed snapshot**: re-fetching the
+    same id returns the same data, so refreshing means bumping the ongoing
+    season's id — `refresh.py` does this automatically (see *Maintenance*).
+    A finished season keeps its pinned id forever, which is what freezes it.
   - `CLUB_NAMES` — strings that count as Tervasulka in entry lists
     (`tervasulka`, `tesu`).
 - **Name identity.** `tokens(name)` turns a name into an order-independent
@@ -199,7 +230,7 @@ the Finnish category labels. `division()` classifies both vocabularies.
 
 ## Step 5 — render the page
 
-`step5_build_html.py` renders `index.html` from the published JSON — a single
+`step5_build_html.py` renders the report page (into `Output/`) from the published JSON — a single
 self-contained page (inline CSS/JS, inline club logo SVG) themed to match
 tervasulka.fi. Four tabs:
 
@@ -218,50 +249,77 @@ A *Method & notes* section on the page states the coverage rules for readers.
 
 ## Caching
 
-All fetched pages land in `.cache/` under stable names:
+All fetched pages land in the season's cache directory `.cache/<season>/`
+under stable names:
 
 | Pattern | Contents |
 |---------|----------|
 | `tlist_page<n>.html` | tournament search result pages (step 1) |
 | `<gid>_players.html`, `<gid>_winners.html` | entry list / winners page per tournament (step 2) |
 | `<gid>_events.html`, `<gid>_event<n>.html` | event index / per-event entry pages, TeSu-connected tournaments only (step 2) |
-| `rkcat_<category>_p<page>.html` | club-filtered ranking category pages (step 3) |
-| `rank_<member>.html` | per-player ranking pages (step 3) |
+| `rkcat_<publication>_<category>_p<page>.html` | club-filtered ranking category pages (step 3) |
+| `rank_<publication>_<member>.html` | per-player ranking pages (step 3) |
 | `rktournaments_<publication>.html` | the official ranking tournament list (steps 3b, 4) |
-| `rktour_<tid>.html` | per-tournament ranking points pages (step 3b) |
+| `rktour_<publication>_<tid>.html` | per-tournament ranking points pages (step 3b) |
 
-A cached file is used as-is when present. To force a refresh, delete the
-relevant files (or all of `.cache/`) and re-run.
+A cached file is used as-is when present. All ranking caches embed the
+publication id, so bumping the ongoing season's publication refetches them
+automatically — no manual deletion needed. `refresh.py` additionally drops the
+volatile caches (search pages, unsettled tournaments; see *Maintenance*). To
+force anything else, delete the relevant files (or the whole season dir) and
+re-run.
 
 ## Maintenance
 
-**Refresh ranking data** (new results processed by the federation):
+**Monthly refresh of the ongoing season** (new tournaments played, new results
+processed by the federation):
 
-1. Find the current publication id: `https://badmintonfinland.tournamentsoftware.com/ranking/`
-   redirects to `ranking.aspx?id=<current>`.
-2. Set `RANKING_PUBLICATION` in `src/twlib.py`.
-3. Delete `.cache/rank_*.html`, `.cache/rkcat_*.html`, `.cache/rktour_*.html`
-   and `.cache/rktournaments_*.html`.
-4. `py step3_rankings.py && py step3b_crosscheck.py && py step4_build_dataset.py
-   && py step5_build_html.py`, and update `GEN` in `step5_build_html.py`.
+```
+cd src
+py refresh.py
+```
+
+It detects the current publication id from `/ranking/`, validates the
+configured category ids against that page (abort on mismatch; `--force`
+overrides), stamps `publication` and `generated` into `seasons.json`, deletes
+the volatile caches (tournament-search pages, and the per-tournament pages of
+tournaments that don't yet have published results at least 14 days old), runs
+steps 1–5, re-renders every finished season's page so the season-switcher
+navigation stays consistent, and rebuilds `Output/tervasulka-report.html` — the
+single-file share variant containing every season (its season dropdown
+switches in-page, so the one file works standalone; also buildable alone with
+`py build_share.py`). It warns if the player count drops sharply (the symptom
+of stale category ids in step 3).
 
 **Add a name alias** (same player appearing under two spellings): add the
 token-key mapping to `NAME_ALIASES` in `src/twlib.py` (and
 `DISPLAY_OVERRIDES` if the preferred display name needs forcing), then re-run
 steps 4–5. A fuzzy duplicate scan that has proven useful: compare all pairs of
 `players.json` names with `difflib.SequenceMatcher`, flag ratio > 0.75 with the
-same first token.
+same first token. **Alias fixes apply forward only**: re-running steps 4–5 for
+a `final` season deliberately changes a frozen page — do it consciously or not
+at all.
 
-**New season**: update `SEASON_START`/`SEASON_END` in step 1, the
-`in_season()` week window in step 3, `GEN` and page texts in step 5, then
-clear `.cache/` and run `py run_all.py`.
+**New season** (in `src/seasons.json`):
+
+1. Flip the finished season's entry to `"status": "final"` (leave its
+   `publication` and `generated` untouched — they freeze the page).
+2. Append the new season's entry: `season`/`label`, `start`/`end` dates,
+   `week_start`/`week_end` ISO-week window, `"publication": null`,
+   `"generated": null`, `"status": "ongoing"`, and copy `categories` (verify
+   the ids still exist on the new publication — `refresh.py` checks this).
+3. `cd src && py refresh.py` — fills the publication, builds
+   `data/<season>/`, writes the new `Output/index.html` and re-renders the old
+   season as `<season>.html`.
 
 ## Pitfalls learned the hard way
 
 - **Ranking category pages are paginated** (default 25 rows). Reading only
   page 1 silently drops every player below the fold — walk all pages.
 - **A ranking publication is a frozen snapshot.** Re-fetching the same id
-  never brings new data; bump `RANKING_PUBLICATION` to refresh.
+  never brings new data; the ongoing season's id must be bumped to refresh
+  (`refresh.py` does this). The flip side makes archiving work: a finished
+  season keeps its pinned id and never changes.
 - **The same player appears under multiple spellings** across entry lists,
   winners pages and the ranking (case, transliteration, initials,
   `Last, First` vs `First Last`). Token-set matching handles ordering and

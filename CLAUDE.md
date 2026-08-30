@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this project is
 
-A scraper + report generator that collects season 2025–26 tournament results for all players of the Tervasulka badminton club from **badmintonfinland.tournamentsoftware.com**, and renders a self-contained report page (`index.html`) plus a published dataset (`data/*.json`, `data/*.csv`). Full build documentation lives in `docs/README.md`; dataset schemas in `data/README.md`; per-script summaries in `src/README.md`. Keep all three in sync when changing the pipeline.
+A scraper + report generator that collects per-season tournament results for all players of the Tervasulka badminton club from **badmintonfinland.tournamentsoftware.com**, and renders self-contained report pages into `Output/` — `index.html` for the ongoing season, `<season>.html` (e.g. `2025-26.html`) frozen per finished season, `tervasulka-report.html` as the all-seasons single share file — plus per-season datasets (`data/<season>/*.json`, `*.csv`). Full build documentation lives in `docs/README.md`; dataset schemas in `data/README.md`; per-script summaries in `src/README.md`. Keep all three in sync when changing the pipeline.
 
 ## Commands
 
@@ -12,26 +12,32 @@ Python 3, standard library only (no pip installs). On this machine invoke Python
 
 ```
 cd src
-py run_all.py            # full pipeline (steps 1, 2, 3, 3b, 4, 5)
-py step3_rankings.py     # or any individual step
+py refresh.py                     # monthly update of the ongoing season (preferred)
+py run_all.py [--season 2025-26]  # full pipeline (steps 1, 2, 3, 3b, 4, 5) for one season
+py step3_rankings.py [--season X] # or any individual step
+py build_share.py                 # single-file share variant (all seasons in one HTML)
 ```
 
-There are no tests or linters. Verification is done by re-running the affected steps and inspecting the outputs in `data/` and `index.html`.
+There are no tests or linters. Verification is done by re-running the affected steps and inspecting the outputs in `data/<season>/` and the rendered page.
 
 ## Architecture
 
-Six-step pipeline in `src/`; each step reads the previous step's output from `data/` and writes back into it:
+**Season registry**: `src/seasons.json` holds one entry per season — date range, ISO-week window, pinned ranking `publication` id, member-discovery category ids, `status` (`ongoing`/`final`), `generated` date. `twlib.configure(season)` points module globals (`DATA=data/<season>`, `CACHE=.cache/<season>`, `RANKING_PUBLICATION`, `ID_CATEGORIES`, week window) at one season; default is the single ongoing entry. Every entry point (`--season` flag) re-calls it. Pinning the publication per season is what freezes finished seasons — step 4 filters tournaments against that publication, so an unpinned/bumped id would drop an archived season's tournaments (this hazard is now structurally prevented).
 
-1. `step1_list_tournaments.py` — enumerate all season tournaments → `data/tournaments_raw.tsv`
-2. `step2_entries_winners.py` — entry lists, season roster, per-event participation filtering, podium results → `data/_fulldata.json`
-3. `step3_rankings.py` — ranking points per player from the pinned ranking publication → `data/_rankings.json`
+Six-step pipeline in `src/`; each step reads the previous step's output from `data/<season>/` and writes back into it:
+
+1. `step1_list_tournaments.py` — enumerate all season tournaments → `tournaments_raw.tsv`
+2. `step2_entries_winners.py` — entry lists, season roster, per-event participation filtering, podium results → `_fulldata.json`
+3. `step3_rankings.py` — ranking points per player from the season's pinned ranking publication → `_rankings.json`
 4. `step3b_crosscheck.py` — verify/patch `_rankings.json` against per-tournament points pages (authoritative)
 5. `step4_build_dataset.py` — filter to ranking-list tournaments, merge identities → `players.json`, `tournaments.json`, `tervasulka_medals.json`, `.csv`
-6. `step5_build_html.py` — render `index.html` (single self-contained page, inline CSS/JS, themed to tervasulka.fi)
+6. `step5_build_html.py` — render the report page (single self-contained page, inline CSS/JS + logo from `assets/`, themed to tervasulka.fi, season-switcher nav) into `Output/`: `index.html` when the season is ongoing, `<season>.html` when final
 
-`src/twlib.py` is the shared library: cookie-wall bypass + cached `fetch()`, site identifiers (`RANKING_PUBLICATION`, `TERVA_RANKING_OGID`, `CLUB_NAMES`), name identity (`tokens()`, `NAME_ALIASES`, `DISPLAY_OVERRIDES`), tournament identity (`norm_tname()` + ISO week), division/medal classification.
+`src/refresh.py` is the monthly driver: detects the current publication id from `/ranking/`, validates category ids, stamps `seasons.json`, invalidates volatile caches (search pages, unsettled tournaments), runs steps 1–5, and re-renders finished seasons' pages so the nav stays consistent.
 
-All HTTP fetches are cached in `.cache/` (gitignored). A cached file is used as-is; delete the relevant files (patterns in `docs/README.md` § Caching) to force a refresh. Files prefixed `_` in `data/` are regenerable intermediates; the rest are the published dataset.
+`src/twlib.py` is the shared library: season registry + `configure()`, cookie-wall bypass + cached `fetch()`, site identifiers (`TERVA_RANKING_OGID`, `CLUB_NAMES`), name identity (`tokens()`, `NAME_ALIASES`, `DISPLAY_OVERRIDES`), tournament identity (`norm_tname()` + ISO week), `in_season()`, division/medal classification.
+
+All HTTP fetches are cached in `.cache/<season>/` (gitignored). A cached file is used as-is; ranking cache names embed the publication id so a bump self-invalidates. Files prefixed `_` in `data/<season>/` are regenerable intermediates; the rest are the published dataset. For a `final` season, git is authoritative — never let a rebuild change `data/<final-season>/`.
 
 ## Domain rules that must not be broken
 
@@ -49,4 +55,4 @@ These encode hard-won corrections (details and incident examples in `docs/README
 
 ## Maintenance recipes
 
-`docs/README.md` § Maintenance has the exact steps for the three routine tasks: refreshing ranking data (bump `RANKING_PUBLICATION`, clear the ranking caches, re-run steps 3→5), adding a name alias (edit `twlib.py`, re-run steps 4–5), and starting a new season. After any data refresh, update `GEN` in `step5_build_html.py`.
+`docs/README.md` § Maintenance has the exact steps for the three routine tasks: the monthly refresh (`py refresh.py` — handles publication bump, cache invalidation and the generated date automatically), adding a name alias (edit `twlib.py`, re-run steps 4–5; applies forward only — touching a `final` season's page is a deliberate act), and starting a new season (flip old entry to `final`, append new entry to `seasons.json`, run `refresh.py`).

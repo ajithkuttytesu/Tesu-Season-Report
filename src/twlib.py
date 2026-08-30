@@ -4,21 +4,78 @@ Handles the tournamentsoftware cookie-wall, cached HTTP fetches, and the
 small parsing utilities (name tokenisation, country detection, event-division
 and medal classification) used across the pipeline steps.
 """
-import os, re, html, time, datetime, urllib.request, urllib.parse, http.cookiejar
+import os, re, html, json, time, datetime, urllib.request, urllib.parse, http.cookiejar
 
 BASE = "https://badmintonfinland.tournamentsoftware.com"
 UA   = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0 Safari/537.36"
 
-REPO  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CACHE = os.path.join(REPO, ".cache")
-DATA  = os.path.join(REPO, "data")
-os.makedirs(CACHE, exist_ok=True)
-os.makedirs(DATA, exist_ok=True)
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Tervasulka identifiers on the platform
 TERVA_RANKING_OGID = "7C7F710E-BF72-4C15-8F3E-CABA47B736A3"
-RANKING_PUBLICATION = "53055"   # weekly ranking publication (latest as of 9.8.2026)
 CLUB_NAMES = ("tervasulka", "tesu")
+
+# ------------------------------------------------------------- season registry
+# All season-specific values (dates, ISO-week window, ranking publication id,
+# category ids) live in seasons.json.  configure() points the module globals
+# below at one season; every step reads them lazily inside run().
+SEASONS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seasons.json")
+SEASON = None                 # the configured season's registry entry (dict)
+DATA = CACHE = None           # per-season data / cache directories
+RANKING_PUBLICATION = None    # the season's pinned ranking publication id
+ID_CATEGORIES = []            # club-filtered category ids used to harvest member ids
+
+def load_seasons():
+    return json.load(open(SEASONS_FILE, encoding="utf-8"))
+
+def save_seasons(seasons):
+    tmp = SEASONS_FILE + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(seasons, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    os.replace(tmp, SEASONS_FILE)
+
+def get_season(name=None):
+    """The registry entry for `name`, or the single ongoing season when None."""
+    seasons = load_seasons()
+    if name is None:
+        ongoing = [s for s in seasons if s["status"] == "ongoing"]
+        if len(ongoing) != 1:
+            raise SystemExit(f"seasons.json must have exactly one ongoing season "
+                             f"(found {len(ongoing)})")
+        return ongoing[0]
+    for s in seasons:
+        if s["season"] == name:
+            return s
+    raise SystemExit(f"unknown season {name!r} — not in seasons.json")
+
+def configure(name=None):
+    """Point the pipeline at one season (default: the ongoing one)."""
+    global SEASON, DATA, CACHE, RANKING_PUBLICATION, ID_CATEGORIES
+    SEASON = get_season(name)
+    DATA = os.path.join(REPO, "data", SEASON["season"])
+    CACHE = os.path.join(REPO, ".cache", SEASON["season"])
+    RANKING_PUBLICATION = SEASON["publication"]
+    ID_CATEGORIES = [int(k) for k in SEASON["categories"]]
+    os.makedirs(DATA, exist_ok=True)
+    os.makedirs(CACHE, exist_ok=True)
+    return SEASON
+
+def _require_pub():
+    if not RANKING_PUBLICATION:
+        raise SystemExit(f"season {SEASON['season']}: ranking publication not set — "
+                         f"run refresh.py first")
+
+def in_season(week):
+    """Is a ranking-page ISO-week string ('YYYY-W') inside the configured season?"""
+    m = re.match(r"(\d{4})-(\d{1,2})$", week)
+    if not m:
+        return False
+    yw = (int(m.group(1)), int(m.group(2)))
+    return tuple(SEASON["week_start"]) <= yw <= tuple(SEASON["week_end"])
+
+def week_key(week):
+    y, w = week.split("-"); return int(y) * 100 + int(w)
 
 # ---------------------------------------------------------------- HTTP session
 _cj = http.cookiejar.CookieJar()
@@ -116,6 +173,7 @@ def ranking_tournament_index():
     Returns a list of dicts (tid, name, week).  The tid addresses the
     per-tournament points page /ranking/tournament.aspx?id=<pub>&tournament=<tid>,
     which itemises the points every player earned at that tournament."""
+    _require_pub()
     doc = fetch(f"/ranking/tournaments.aspx?id={RANKING_PUBLICATION}",
                 cache_name=f"rktournaments_{RANKING_PUBLICATION}.html")
     flat = re.sub(r"\s+", " ", doc)
@@ -135,8 +193,9 @@ def ranking_tournament_points(tid):
 
     Returns a list of dicts (category, member_id, name, placing, points), one
     row per player per category, in page order."""
+    _require_pub()
     doc = fetch(f"/ranking/tournament.aspx?id={RANKING_PUBLICATION}&tournament={tid}",
-                cache_name=f"rktour_{tid}.html")
+                cache_name=f"rktour_{RANKING_PUBLICATION}_{tid}.html")
     flat = re.sub(r"\s+", " ", doc)
     rows, category = [], None
     for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", flat):
@@ -197,4 +256,8 @@ def tournament_url(gid):
 def winners_url(gid):
     return f"{BASE}/sport/winners.aspx?id={gid.lower()}"
 def ranking_player_url(member_id):
+    _require_pub()
     return f"{BASE}/ranking/player.aspx?id={RANKING_PUBLICATION}&player={member_id}"
+
+# Default to the ongoing season; entry points re-call configure(--season) to override.
+configure()

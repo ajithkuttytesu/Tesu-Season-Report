@@ -1,10 +1,11 @@
-"""Step 5 — build the tabbed HTML report from the data/*.json files."""
-import os, json, html, sys
+"""Step 5 — build the tabbed HTML report from the season's data/<season>/*.json.
+
+Writes index.html for the ongoing season, <season>.html for finished ones."""
+import os, json, html, sys, datetime
 from collections import defaultdict
 import twlib as T
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-GEN = "2026-08-09"
 M = {"Gold": "\U0001F947", "Silver": "\U0001F948", "Bronze": "\U0001F949"}
 DIV_ORDER = ["Valio/Elite", "A", "B", "C", "D", "Junior", "Senior", "Other"]
 
@@ -28,9 +29,18 @@ body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",
 a{color:var(--red);text-decoration:none}a:hover{text-decoration:underline}
 .banner{background:var(--yellow);color:#000;text-align:center;font-size:14px;padding:9px 16px}
 .banner a{color:#000;text-decoration:underline;font-weight:600}
-.topnav{display:flex;align-items:center;justify-content:space-between;max-width:1280px;margin:0 auto;padding:14px 24px}
+.topnav{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;max-width:1280px;margin:0 auto;padding:14px 24px}
 .topnav .brand{font-size:22px;font-weight:700;color:#000}
-.topnav .site{color:#000;font-weight:600;font-size:15px}
+.topnav .seasonsel{position:relative}
+.topnav .seasonsel summary{display:inline-block;cursor:pointer;list-style:none;white-space:nowrap;border:1px solid #000;background:#fff;color:#000;padding:8px 20px;font-size:15px;font-weight:600;font-family:inherit}
+.topnav .seasonsel summary::-webkit-details-marker{display:none}
+.topnav .seasonsel summary::after{content:" ▾"}
+.topnav .seasonsel[open] summary{background:var(--red);color:#fff;border-color:var(--red)}
+.topnav .seasonsel[open] summary::after{content:" ▴"}
+.topnav .seasonsel .opts{position:absolute;left:0;top:calc(100% + 4px);min-width:100%;background:#fff;border:1px solid #000;display:flex;flex-direction:column;z-index:30}
+.topnav .seasonsel .opts a{color:#000;padding:8px 20px;font-size:15px;font-weight:600;white-space:nowrap}
+.topnav .seasonsel .opts a:hover{background:#f5f5f5;text-decoration:none}
+.topnav .seasonsel .opts a.current{background:var(--red);color:#fff;pointer-events:none}
 .hero{max-width:1280px;margin:0 auto;padding:0 16px}
 .hero-card{background:var(--red);border-radius:16px;color:#fff;text-align:center;padding:44px 24px 40px;
 background-image:repeating-linear-gradient(45deg,rgba(0,0,0,.05) 0 14px,transparent 14px 28px),repeating-linear-gradient(-45deg,rgba(0,0,0,.05) 0 14px,transparent 14px 28px)}
@@ -149,12 +159,16 @@ tr.medrow .evlist{columns:auto;font-size:13px}
 """
 
 JS = """
-function tab(id,btn){document.querySelectorAll('section.tab').forEach(s=>s.classList.remove('active'));
- document.getElementById(id).classList.add('active');
- document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');window.scrollTo(0,0);}
-function subtab(cls,id,btn){document.querySelectorAll('.'+cls).forEach(s=>s.style.display='none');
- document.getElementById(id).style.display='block';
+function tab(id,btn){var root=btn.closest('.season')||document;
+ root.querySelectorAll('section.tab').forEach(s=>s.classList.remove('active'));
+ root.querySelector('section[id="'+id+'"]').classList.add('active');
+ root.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');window.scrollTo(0,0);}
+function subtab(cls,id,btn){var root=btn.closest('.season')||document;
+ root.querySelectorAll('.'+cls).forEach(s=>s.style.display='none');
+ root.querySelector('[id="'+id+'"]').style.display='block';
  btn.parentNode.querySelectorAll('button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
+function showSeason(id){document.querySelectorAll('.season').forEach(function(s){s.style.display=(s.id===id)?'':'none';});
+ document.querySelectorAll('.seasonsel').forEach(function(d){d.open=false;});window.scrollTo(0,0);}
 function medrow(btn){var tr=btn.closest('tr').nextElementSibling;
  var open=tr.classList.toggle('open');btn.classList.toggle('open',open);btn.setAttribute('aria-expanded',open);}
 function dd(btn,i){var card=btn.closest('.pcard');var panes=card.querySelectorAll('.ddpanes>.evlist');
@@ -165,7 +179,7 @@ function dd(btn,i){var card=btn.closest('.pcard');var panes=card.querySelectorAl
 
 def logo_div():
     """Inline the official club logo SVG (downloaded from tervasulka.fi)."""
-    path = os.path.join(T.DATA, "logo-tervasulka.svg")
+    path = os.path.join(T.REPO, "assets", "logo-tervasulka.svg")
     try:
         svg = open(path, encoding="utf-8").read()
         svg = svg[svg.index("<svg"):]
@@ -173,7 +187,12 @@ def logo_div():
     except OSError:
         return '<div class="logo" style="font-size:80px">\U0001F3F8</div>'
 
-def run():
+def build_body(share=False, hidden=False):
+    """Banner-to-footer fragments for the configured season, wrapped in a
+    .season div. share=True makes the season dropdown switch in-page
+    (showSeason) instead of linking to the per-season files; hidden=True
+    starts the div hidden (used by build_share.py for non-default seasons).
+    Returns (fragments, (players, medalists, ranked, tournaments) counts)."""
     players = json.load(open(os.path.join(T.DATA, "players.json"), encoding="utf-8"))
     tours   = json.load(open(os.path.join(T.DATA, "tournaments.json"), encoding="utf-8"))
     medals  = json.load(open(os.path.join(T.DATA, "tervasulka_medals.json"), encoding="utf-8"))
@@ -183,19 +202,34 @@ def run():
     n_played = sum(1 for p in players if p["tournaments_played"] > 0)
     n_inferred = sum(1 for t in medals for m in t["medals"] if m["confidence"] == "roster-inferred")
 
+    S = T.SEASON
+    label = S["label"]
+    gen = S.get("generated") or datetime.date.today().isoformat()
+
+    # season switcher: dropdown of every registry entry, newest first; current inert
+    slinks = []
+    for s in sorted(T.load_seasons(), key=lambda s: s["season"], reverse=True):
+        cur = ' class="current"' if s["season"] == S["season"] else ""
+        if share:
+            slinks.append(f'<a{cur} href="#" onclick="showSeason(\'sn-{s["season"]}\');'
+                          f'return false">{s["label"]}</a>')
+        else:
+            href = "index.html" if s["status"] == "ongoing" else f"{s['season']}.html"
+            slinks.append(f'<a{cur} href="{href}">{s["label"]}</a>')
+    seasons_nav = (f'<details class="seasonsel"><summary>Season {label}</summary>'
+                   f'<div class="opts">{"".join(slinks)}</div></details>')
+
     o = []
-    o.append('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">')
-    o.append('<meta name="viewport" content="width=device-width, initial-scale=1">')
-    o.append("<title>Tervasulka — 2025-26 Season Report</title>")
-    o.append("<style>" + CSS + "</style></head><body>")
+    style = ' style="display:none"' if hidden else ""
+    o.append(f'<div class="season" id="sn-{S["season"]}"{style}>')
     logo = logo_div()
-    o.append('<div class="banner">Kilpailukausi 2025–26 — tulokset! / Season 2025–26 tournament results '
+    o.append(f'<div class="banner">Kilpailukausi {label} — tulokset! / Season {label} tournament results '
              '· <a href="https://www.tervasulka.fi/">tervasulka.fi</a></div>')
-    o.append('<nav class="topnav"><a class="brand" href="https://www.tervasulka.fi/">Tervasulka</a>'
-             '<a class="site" href="https://www.tervasulka.fi/">tervasulka.fi</a></nav>')
+    o.append(f'<nav class="topnav"><a class="brand" href="https://www.tervasulka.fi/">Tervasulka</a>'
+             f'{seasons_nav}</nav>')
     o.append(f'<div class="hero"><div class="hero-card">{logo}')
-    o.append('<h1>2025–26 Season Report</h1>')
-    o.append(f"<p>Source: <a href='https://badmintonfinland.tournamentsoftware.com'>badmintonfinland.tournamentsoftware.com</a> · Generated {GEN}</p>")
+    o.append(f'<h1>{label} Season Report</h1>')
+    o.append(f"<p>Source: <a href='https://badmintonfinland.tournamentsoftware.com'>badmintonfinland.tournamentsoftware.com</a> · Generated {gen}</p>")
     o.append("</div></div>")
     o.append('<div class="wrap">')
 
@@ -414,8 +448,9 @@ def run():
              'Players whose registration ended on an event’s exclude or reserve list (never in a draw) are not counted as participants; '
              'no-shows in a draw are. '
              f'{n_inferred} medal rows come from tournaments whose entry list showed nationality only (marked °); those clubs were matched against the season roster.<br><br>')
+    ws, we = S["week_start"], S["week_end"]
     o.append('<b>Ranking points.</b> Taken from each player’s official ranking page, counting only results from '
-             '<b>this season’s</b> tournaments (ISO weeks 2025-W33 … 2026-W26); the official total uses a longer '
+             f'<b>this season’s</b> tournaments (ISO weeks {ws[0]}-W{ws[1]} … {we[0]}-W{we[1]}); the official total uses a longer '
              'rolling window. All divisions are included — open, junior (U-age) and senior/veteran (35+…). '
              'Identical rows that re-rank the same result across class lists are de-duplicated, and every total is '
              'cross-checked against the per-tournament points pages of the ranking publication (which also recover '
@@ -428,14 +463,32 @@ def run():
              '<a href="https://www.tervasulka.fi/kilpailut">Kilpailut</a>'
              '<a href="https://badmintonfinland.tournamentsoftware.com">tournamentsoftware.com</a></div>')
     o.append('<div class="rule"></div>')
-    o.append(f'<div class="copy">© 2026 Tervasulka ry · 2025–26 season · {len(players)} players · {tg+ts+tb} medals · {len(ranked)} ranked</div>')
-    o.append("</footer>")
-    o.append("<script>" + JS + "</script></body></html>")
+    o.append(f'<div class="copy">© {gen[:4]} Tervasulka ry · {label} season · {len(players)} players · {tg+ts+tb} medals · {len(ranked)} ranked</div>')
+    o.append("</footer></div>")  # .season
+    return o, (len(players), len(medalists), len(ranked), len(tours))
 
-    out = os.path.join(T.REPO, "index.html")
+def page_head(title):
+    return ['<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">',
+            '<meta name="viewport" content="width=device-width, initial-scale=1">',
+            f"<title>{title}</title>",
+            "<style>" + CSS + "</style></head><body>"]
+
+def run():
+    S = T.SEASON
+    body, (n_pl, n_med, n_rk, n_t) = build_body()
+    o = page_head(f"Tervasulka — {S['season']} Season Report") + body
+    o.append("<script>" + JS + "</script></body></html>")
+    fname = "index.html" if S["status"] == "ongoing" else f"{S['season']}.html"
+    outdir = os.path.join(T.REPO, "Output")
+    os.makedirs(outdir, exist_ok=True)
+    out = os.path.join(outdir, fname)
     open(out, "w", encoding="utf-8").write("\n".join(o))
-    print(f"step5: HTML -> {out}  ({len(players)} players, {len(medalists)} medalists, "
-          f"{len(ranked)} ranked, {len(tours)} tournaments)")
+    print(f"step5: HTML -> {out}  ({n_pl} players, {n_med} medalists, "
+          f"{n_rk} ranked, {n_t} tournaments)")
 
 if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--season", help="season key from seasons.json, default: ongoing")
+    T.configure(ap.parse_args().season)
     run()

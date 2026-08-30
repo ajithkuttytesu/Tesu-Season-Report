@@ -1,15 +1,16 @@
 # Tervasulka season scraper — `src/`
 
 Python pipeline that scrapes **badmintonfinland.tournamentsoftware.com** and builds
-the Tervasulka 2025-26 season report. Pure standard library (no pip installs).
-Full build documentation: `../docs/README.md`.
+the Tervasulka season reports (one per season, registry in `seasons.json`).
+Pure standard library (no pip installs). Full build documentation: `../docs/README.md`.
 
 ## Run
 
 ```bash
 cd src
-python run_all.py          # steps 1-5
-# or run individually:
+python refresh.py          # monthly update of the ongoing season (preferred)
+python run_all.py          # steps 1-5; add --season 2025-26 for another season
+# or run individually (each accepts --season):
 python step1_list_tournaments.py
 python step2_entries_winners.py
 python step3_rankings.py
@@ -18,14 +19,20 @@ python step4_build_dataset.py
 python step5_build_html.py
 ```
 
-Outputs land in `../data/` and `../index.html`.
-HTTP responses are cached in `../.cache/` (regenerable; safe to delete to force a refresh).
+Outputs land in `../data/<season>/` and `../Output/index.html` (ongoing season)
+or `../Output/<season>.html` (finished seasons). HTTP responses are cached in
+`../.cache/<season>/` (regenerable — but a finished season's cache is what lets
+its dataset be rebuilt reproducibly, so don't delete archived season caches
+casually).
 
 ## Files
 
 | Script | Purpose |
 |--------|---------|
-| `twlib.py` | Shared: cookie-wall bypass + cached fetch, name/country/division/medal helpers, IDs. |
+| `twlib.py` | Shared: season registry + `configure()`, cookie-wall bypass + cached fetch, name/country/division/medal helpers, IDs. |
+| `seasons.json` | Season registry: dates, ISO-week window, pinned publication id, category ids, status, generated date — per season. |
+| `refresh.py` | Monthly driver for the ongoing season: detect publication, invalidate stale caches, run steps 1-5, re-render archived pages + the share file. |
+| `build_share.py` | Single-file variant `../Output/tervasulka-report.html`: all seasons in one self-contained HTML (season dropdown switches in-page) — for sharing. |
 | `step1_list_tournaments.py` | Enumerate all season tournaments → `data/tournaments_raw.tsv`. |
 | `step2_entries_winners.py` | Per tournament: entry list (→ club) + winners page (→ podium) → `data/_fulldata.json`. Drops entrants who only sat on event Exclude/Reserve lists (never in a real draw). |
 | `step3_rankings.py` | Tervasulka ranking points from the club-filtered category lists (all pages) → `data/_rankings.json`. |
@@ -50,7 +57,7 @@ HTTP responses are cached in `../.cache/` (regenerable; safe to delete to force 
 - Ranking (club-filtered): `/ranking/category.aspx?id=<publication>&category=<cat>&ogid=<club-ogid>&p=<page>&ps=100`;
   Tervasulka ogid `7C7F710E-BF72-4C15-8F3E-CABA47B736A3`. Category pages are **paginated** — walk
   every page. Names must be HTML-unescaped on both sides before matching (ä/ö/å), or matches silently fail.
-- Ranking publication id (`RANKING_PUBLICATION` in `twlib.py`) is a **frozen weekly snapshot**;
+- Ranking publication id (per season in `seasons.json`, exposed as `twlib.RANKING_PUBLICATION`) is a **frozen weekly snapshot**;
   bump it to the current id (see `/ranking/`) to refresh data.
 - Official ranking tournament list: `/ranking/tournaments.aspx?id=<publication>` — tournaments not
   on it award no points and are excluded from the report (medals included).

@@ -9,39 +9,23 @@ Two phases:
      THIS SEASON's results (by ISO week), and aggregate per tournament.
 
 The official ranking total uses a rolling window, so it mixes in
-previous-season results; here we count only 2025-26 season tournaments.
+previous-season results; here we count only the configured season's tournaments
+(ISO-week window and category ids come from seasons.json via twlib).
 
-Writes data/_rankings.json keyed by player name.
+Writes data/<season>/_rankings.json keyed by player name.
 """
 import os, re, json, sys
 import twlib as T
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# club-filtered categories used only to harvest member ids (open + junior + senior)
-ID_CATEGORIES = [
-    2218, 2219, 2220, 2221, 5041, 5064,           # open: M/W singles, doubles, mixed
-    5036, 5037, 5038, 5039, 5055, 5078,           # Juniorit aggregates
-    5094, 5095, 5096, 5097, 5099, 5100,           # Seniorit aggregates
-]
-
-# 2025-26 season = ISO weeks 2025-W33 .. 2026-W26
-def in_season(week):
-    m = re.match(r"(\d{4})-(\d{1,2})$", week)
-    if not m:
-        return False
-    y, w = int(m.group(1)), int(m.group(2))
-    return (y == 2025 and w >= 33) or (y == 2026 and w <= 26)
-def week_key(week):
-    y, w = week.split("-"); return int(y) * 100 + int(w)
-
 def discover_member_ids():
     found = {}   # member_id -> name
-    for cid in ID_CATEGORIES:
+    for cid in T.ID_CATEGORIES:
         page = 1
         while True:          # category lists are paginated; walk every page
             doc = T.fetch(f"/ranking/category.aspx?id={T.RANKING_PUBLICATION}"
                           f"&category={cid}&ogid={T.TERVA_RANKING_OGID}&p={page}&ps=100",
-                          cache_name=f"rkcat_{cid}_p{page}.html")
+                          cache_name=f"rkcat_{T.RANKING_PUBLICATION}_{cid}_p{page}.html")
             hits = re.findall(r'player\.aspx\?id=\d+&player=(\d+)">([^<]+)</a>', doc)
             for mid, nm in hits:
                 found[mid] = T.unesc(nm)
@@ -52,7 +36,7 @@ def discover_member_ids():
 
 def parse_player_results(member_id):
     doc = T.fetch(f"/ranking/player.aspx?id={T.RANKING_PUBLICATION}&player={member_id}",
-                  cache_name=f"rank_{member_id}.html")
+                  cache_name=f"rank_{T.RANKING_PUBLICATION}_{member_id}.html")
     flat = re.sub(r"\s+", " ", doc)
     out, seen = [], set()
     for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", flat):
@@ -95,7 +79,7 @@ def run():
     members = discover_member_ids()
     players = {}
     for mid, name in members.items():
-        rows = [r for r in parse_player_results(mid) if in_season(r["week"])]
+        rows = [r for r in parse_player_results(mid) if T.in_season(r["week"])]
         if not rows:
             continue
         per_t = {}
@@ -109,7 +93,7 @@ def run():
             tours.append(dict(tournament=tname, date=date, week=info["week"], url=url,
                               points=round(info["points"], 1),
                               events=sorted(info["events"], key=lambda e: -e["points"])))
-        tours.sort(key=lambda x: (x["date"] or f"wk{week_key(x['week']):06d}"))
+        tours.sort(key=lambda x: (x["date"] or f"wk{T.week_key(x['week']):06d}"))
         players[name] = dict(
             member_id=mid, url=T.ranking_player_url(mid),
             season_points=round(sum(t["points"] for t in tours), 1),
@@ -122,4 +106,8 @@ def run():
           f"-> data/_rankings.json")
 
 if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--season", help="season key from seasons.json, default: ongoing")
+    T.configure(ap.parse_args().season)
     run()

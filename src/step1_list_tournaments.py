@@ -1,14 +1,12 @@
-"""Step 1 — enumerate every badminton tournament of the 2025-26 season.
+"""Step 1 — enumerate every badminton tournament of the configured season.
 
 Pages through the site's tournament search (SportID=2) for the season date
-range and writes data/tournaments_raw.tsv  (date<TAB>guid<TAB>name<TAB>location).
+range and writes data/<season>/tournaments_raw.tsv
+(date<TAB>guid<TAB>name<TAB>location).
 """
 import os, re, html, sys
 import twlib as T
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-
-SEASON_START = "2025-08-01T00:00"
-SEASON_END   = "2026-06-30T00:00"
 
 def run():
     # The DoSearch endpoint returns cumulative results; page until it stops growing.
@@ -20,8 +18,8 @@ def run():
             "TournamentExtendedFilter.SportID": "2",
             "TournamentFilter.Q": "",
             "TournamentFilter.DateFilterType": "0",
-            "TournamentFilter.StartDate": SEASON_START,
-            "TournamentFilter.EndDate": SEASON_END,
+            "TournamentFilter.StartDate": T.SEASON["start"],
+            "TournamentFilter.EndDate": T.SEASON["end"],
         }
         h = T.fetch("/find/tournament/DoSearch", cache_name=f"tlist_page{page}.html",
                     xhr=True, post=body)
@@ -48,4 +46,8 @@ def run():
     print(f"step1: {len(rows)} tournaments -> {out}")
 
 if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--season", help="season key from seasons.json, default: ongoing")
+    T.configure(ap.parse_args().season)
     run()
