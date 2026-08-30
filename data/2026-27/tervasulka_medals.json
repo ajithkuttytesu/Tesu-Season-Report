@@ -1,0 +1,208 @@
+[
+  {
+    "date": "2026-08-15",
+    "tournament": "Jyväskylän Elokuun kansalliset",
+    "location": "Jyväskylän Sulkapalloseura | Jyväskylä",
+    "tournament_id": "FBF6D067-0386-4CF7-99F4-0BE2D8D3A9F0",
+    "url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=fbf6d067-0386-4cf7-99f4-0be2d8d3a9f0",
+    "medals": [
+      {
+        "event": "MD C",
+        "division": "C",
+        "place": "1",
+        "medal": "Gold",
+        "tervasulka_players": [
+          "Jinu John",
+          "Sanath K S"
+        ],
+        "all_players_in_entry": [
+          "Jinu John",
+          "Sanath K S"
+        ],
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "tournament": "Ylivieskan kansallinen",
+    "location": "Ylivieskan Tennisseura ry | Ylivieska",
+    "tournament_id": "591CB343-1F37-4258-8883-BAEF154D4181",
+    "url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=591cb343-1f37-4258-8883-baef154d4181",
+    "medals": [
+      {
+        "event": "MS A",
+        "division": "A",
+        "place": "1",
+        "medal": "Gold",
+        "tervasulka_players": [
+          "Ilari Leskelä"
+        ],
+        "all_players_in_entry": [
+          "Ilari Leskelä"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MS A",
+        "division": "A",
+        "place": "3/4",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Pauli Alapukki"
+        ],
+        "all_players_in_entry": [
+          "Pauli Alapukki"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MS C",
+        "division": "C",
+        "place": "3/4",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Jonathan Jinu John"
+        ],
+        "all_players_in_entry": [
+          "Jonathan Jinu John"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MS 35",
+        "division": "Senior",
+        "place": "3/4",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Paavo Ihme"
+        ],
+        "all_players_in_entry": [
+          "Paavo Ihme"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "BS U17",
+        "division": "Junior",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Jonathan Jinu John"
+        ],
+        "all_players_in_entry": [
+          "Jonathan Jinu John"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "BS U17",
+        "division": "Junior",
+        "place": "3/4",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Juhana Paaso"
+        ],
+        "all_players_in_entry": [
+          "Juhana Paaso"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MD A",
+        "division": "A",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Ilari Leskelä"
+        ],
+        "all_players_in_entry": [
+          "Eetu Hanhineva",
+          "Ilari Leskelä"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MD B",
+        "division": "B",
+        "place": "1",
+        "medal": "Gold",
+        "tervasulka_players": [
+          "Pauli Alapukki"
+        ],
+        "all_players_in_entry": [
+          "Pauli Alapukki",
+          "Mika Pasanen"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "XD B",
+        "division": "B",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Narasimhulu Thoti",
+          "Parisa Rezaeei"
+        ],
+        "all_players_in_entry": [
+          "Narasimhulu Thoti",
+          "Parisa Rezaeei"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "XD C",
+        "division": "C",
+        "place": "3/4",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Nipun Waas",
+          "Yini Wang"
+        ],
+        "all_players_in_entry": [
+          "Nipun Waas",
+          "Yini Wang"
+        ],
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "tournament": "TVS Eliitti",
+    "location": "TVS-Sulka | Turku",
+    "tournament_id": "B264376D-DA0F-46B8-8F81-45196323919B",
+    "url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=b264376d-da0f-46b8-8f81-45196323919b",
+    "medals": [
+      {
+        "event": "WD V",
+        "division": "Valio/Elite",
+        "place": "3",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Nelly Määttä"
+        ],
+        "all_players_in_entry": [
+          "Emma Lybeck",
+          "Nelly Määttä"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "XD V",
+        "division": "Valio/Elite",
+        "place": "3",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Nelly Määttä"
+        ],
+        "all_players_in_entry": [
+          "Elmeri Lybeck",
+          "Nelly Määttä"
+        ],
+        "confidence": "confirmed"
+      }
+    ]
+  }
+]
