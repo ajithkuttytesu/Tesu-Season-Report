@@ -1,0 +1,48 @@
+# Publishes the rendered report pages in Output/ to GitHub Pages
+# (served at https://tulokset.tervasulka.fi via the custom domain set in
+# the repository's Settings -> Pages). Runs on every push to main that
+# touches Output/, or manually from the Actions tab.
+name: Deploy report to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["Output/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Publish only the season pages and the share file; leftovers such as
+      # index-first-publish.html stay out of the site.
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp Output/index.html Output/tervasulka-report.html _site/
+          for f in Output/[0-9][0-9][0-9][0-9]-[0-9][0-9].html; do
+            [ -e "$f" ] && cp "$f" _site/
+          done
+          touch _site/.nojekyll
+          ls -la _site
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

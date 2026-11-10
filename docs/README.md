@@ -291,6 +291,18 @@ switches in-page, so the one file works standalone; also buildable alone with
 `py build_share.py`). It warns if the player count drops sharply (the symptom
 of stale category ids in step 3).
 
+**Publishing.** The site `https://tulokset.tervasulka.fi` is served by GitHub
+Pages. `.github/workflows/pages.yml` deploys on every push to `main` that
+changes `Output/` (or manually from the Actions tab). It publishes
+`index.html`, every `<season>.html` and `tervasulka-report.html`, and nothing
+else from `Output/`. So after a refresh, commit and push, and the site
+updates within a minute or two. One-time setup: in the repo, go to Settings → Pages
+→ Source: *GitHub Actions*, and set Custom domain `tulokset.tervasulka.fi` with
+*Enforce HTTPS*. In the Zoner DNS settings for tervasulka.fi, add a `CNAME`
+record from `tulokset` to `ajithkuttytesu.github.io` and remove any old
+`A`/`AAAA` record for `tulokset`. (Until 2026 the pages were uploaded by hand
+to a Zoner cPanel webhotel, which has been discontinued.)
+
 **Add a name alias** (same player appearing under two spellings): add the
 token-key mapping to `NAME_ALIASES` in `src/twlib.py` (and
 `DISPLAY_OVERRIDES` if the preferred display name needs forcing), then re-run
