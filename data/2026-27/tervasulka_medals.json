@@ -204,5 +204,281 @@
         "confidence": "confirmed"
       }
     ]
+  },
+  {
+    "date": "2026-09-19",
+    "tournament": "Puistolan juniorikansallinen + BC - 2026",
+    "location": "Puistolan Urheilijat | Helsinki",
+    "tournament_id": "D17D01DC-1C62-4249-B117-7B12BE236D46",
+    "url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=d17d01dc-1c62-4249-b117-7b12be236d46",
+    "medals": [
+      {
+        "event": "BS U15",
+        "division": "Junior",
+        "place": "3/4",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Jonathan Jinu John"
+        ],
+        "all_players_in_entry": [
+          "Jonathan Jinu John"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "GS U11",
+        "division": "Junior",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Ashlyn Jinu"
+        ],
+        "all_players_in_entry": [
+          "Ashlyn Jinu"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MD C",
+        "division": "C",
+        "place": "3/4",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Jinu John"
+        ],
+        "all_players_in_entry": [
+          "Jinu John",
+          "Kha Le Tuan"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "BD U15",
+        "division": "Junior",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Jonathan Jinu John"
+        ],
+        "all_players_in_entry": [
+          "Jonathan Jinu John",
+          "Zaki Payo"
+        ],
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "tournament": "FZ Forza Sulkaset Eliitti 2026",
+    "location": "Sulkaset | Tampere",
+    "tournament_id": "946C6379-38C3-459E-B8A8-F221DD2A5FD7",
+    "url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "medals": [
+      {
+        "event": "MS A",
+        "division": "A",
+        "place": "1",
+        "medal": "Gold",
+        "tervasulka_players": [
+          "Ilari Leskelä"
+        ],
+        "all_players_in_entry": [
+          "Ilari Leskelä"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MS A",
+        "division": "A",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Elias Vuollet"
+        ],
+        "all_players_in_entry": [
+          "Elias Vuollet"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MD B",
+        "division": "B",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Markus Heikkinen"
+        ],
+        "all_players_in_entry": [
+          "Markus Heikkinen",
+          "Jukka-Pekka Keinänen"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "XD A",
+        "division": "A",
+        "place": "1",
+        "medal": "Gold",
+        "tervasulka_players": [
+          "Elias Vuollet"
+        ],
+        "all_players_in_entry": [
+          "Elias Vuollet",
+          "Eerika Laakso"
+        ],
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "tournament": "Tapion Sulan U9-U15 kisa 2026",
+    "location": "Tapion Sulka | Espoo",
+    "tournament_id": "86585624-C2C7-467D-8055-F9FF06AB1E3C",
+    "url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=86585624-c2c7-467d-8055-f9ff06ab1e3c",
+    "medals": [
+      {
+        "event": "GS U11",
+        "division": "Junior",
+        "place": "3",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Ashlyn Jinu"
+        ],
+        "all_players_in_entry": [
+          "Ashlyn Jinu"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "BD U15",
+        "division": "Junior",
+        "place": "3/4",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Jonathan Jinu John"
+        ],
+        "all_players_in_entry": [
+          "Jonathan Jinu John",
+          "Zaki Payo"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "GD U13",
+        "division": "Junior",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Ashlyn Jinu"
+        ],
+        "all_players_in_entry": [
+          "Ashlyn Jinu",
+          "Aaradhya Jessica Sowpati"
+        ],
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+    "location": "Savon Sulka | Kuopio",
+    "tournament_id": "DF433BE5-8D5D-44B9-81F3-B9C74448EA45",
+    "url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "medals": [
+      {
+        "event": "BS U15",
+        "division": "Junior",
+        "place": "1",
+        "medal": "Gold",
+        "tervasulka_players": [
+          "Ashwath Kutty"
+        ],
+        "all_players_in_entry": [
+          "Ashwath Kutty"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "WS C",
+        "division": "C",
+        "place": "3",
+        "medal": "Bronze",
+        "tervasulka_players": [
+          "Anniina Saarela"
+        ],
+        "all_players_in_entry": [
+          "Anniina Saarela"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "MD C",
+        "division": "C",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Sanath K S",
+          "Ajith Kutty"
+        ],
+        "all_players_in_entry": [
+          "Sanath K S",
+          "Ajith Kutty"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "BD U15",
+        "division": "Junior",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Ashwath Kutty"
+        ],
+        "all_players_in_entry": [
+          "Sebastian Isokangas",
+          "Ashwath Kutty"
+        ],
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "tournament": "RSL Finnish Youth 2026",
+    "location": "Espoon Sulkapallo-Badminton | Espoo",
+    "tournament_id": "4585F1E0-ABE0-49B0-AE2E-C25824F8FEF8",
+    "url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=4585f1e0-abe0-49b0-ae2e-c25824f8fef8",
+    "medals": [
+      {
+        "event": "GS U11",
+        "division": "Junior",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Ashlyn Jinu"
+        ],
+        "all_players_in_entry": [
+          "Ashlyn Jinu"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "event": "GD U11",
+        "division": "Junior",
+        "place": "2",
+        "medal": "Silver",
+        "tervasulka_players": [
+          "Ashlyn Jinu"
+        ],
+        "all_players_in_entry": [
+          "Ashlyn Jinu",
+          "Aaradhya Jessica Sowpati"
+        ],
+        "confidence": "confirmed"
+      }
+    ]
   }
 ]

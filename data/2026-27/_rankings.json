@@ -1,30 +1,30 @@
 {
- "Nelly Määttä": {
-  "member_id": "4688983",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=4688983",
-  "season_points": 2700.0,
+ "Elias Vuollet": {
+  "member_id": "2648138",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2648138",
+  "season_points": 3800.0,
   "tournaments": [
    {
-    "tournament": "TVS Eliitti 2026",
-    "date": "2026-08-22",
-    "week": "2026-34",
-    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/b264376d-da0f-46b8-8f81-45196323919b",
-    "points": 2700.0,
+    "tournament": "FZ Forza Sulkaset Eliitti 2026",
+    "date": "2026-09-26",
+    "week": "2026-39",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "points": 3800.0,
     "events": [
      {
-      "event": "WD V",
-      "placing": "3/4",
-      "points": 1200.0
+      "event": "MS A",
+      "placing": "2",
+      "points": 1700.0
      },
      {
-      "event": "XD V",
-      "placing": "3/4",
-      "points": 1200.0
+      "event": "XD A",
+      "placing": "1",
+      "points": 1400.0
      },
      {
-      "event": "WS A",
+      "event": "MD A",
       "placing": "5/8",
-      "points": 300.0
+      "points": 700.0
      }
     ]
    }
@@ -32,8 +32,8 @@
  },
  "Ilari Leskelä": {
   "member_id": "2377259",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=2377259",
-  "season_points": 950.0,
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2377259",
+  "season_points": 2950.0,
   "tournaments": [
    {
     "tournament": "Ylivieskan kansallinen 2026",
@@ -53,49 +53,49 @@
       "points": 350.0
      }
     ]
+   },
+   {
+    "tournament": "FZ Forza Sulkaset Eliitti 2026",
+    "date": "2026-09-26",
+    "week": "2026-39",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "points": 2000.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "1",
+      "points": 2000.0
+     }
+    ]
    }
   ]
  },
- "Pauli Alapukki": {
-  "member_id": "6336010",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=6336010",
-  "season_points": 572.5,
+ "Nelly Määttä": {
+  "member_id": "4688983",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=4688983",
+  "season_points": 2700.0,
   "tournaments": [
    {
-    "tournament": "Jyväskylän Elokuun kansalliset",
-    "date": "2026-08-15",
-    "week": "2026-33",
-    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/fbf6d067-0386-4cf7-99f4-0be2d8d3a9f0",
-    "points": 32.5,
-    "events": [
-     {
-      "event": "MD B",
-      "placing": "5/8",
-      "points": 20.0
-     },
-     {
-      "event": "MS A",
-      "placing": "5/8",
-      "points": 12.5
-     }
-    ]
-   },
-   {
-    "tournament": "Ylivieskan kansallinen 2026",
+    "tournament": "TVS Eliitti 2026",
     "date": "2026-08-22",
     "week": "2026-34",
-    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
-    "points": 540.0,
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/b264376d-da0f-46b8-8f81-45196323919b",
+    "points": 2700.0,
     "events": [
      {
-      "event": "MS A",
+      "event": "NN V",
       "placing": "3/4",
-      "points": 300.0
+      "points": 1200.0
      },
      {
-      "event": "MD B",
-      "placing": "1",
-      "points": 240.0
+      "event": "Naiset SN V",
+      "placing": "3/4",
+      "points": 1200.0
+     },
+     {
+      "event": "NK A",
+      "placing": "5/8",
+      "points": 300.0
      }
     ]
    }
@@ -103,8 +103,8 @@
  },
  "Jonathan Jinu John": {
   "member_id": "6409529",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=6409529",
-  "season_points": 267.5,
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=6409529",
+  "season_points": 1197.5,
   "tournaments": [
    {
     "tournament": "Jyväskylän Elokuun kansalliset",
@@ -148,13 +148,160 @@
       "points": 2.5
      }
     ]
+   },
+   {
+    "tournament": "Puistolan juniorikansallinen + BC - 2026",
+    "date": "2026-09-19",
+    "week": "2026-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+    "points": 405.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "3/4",
+      "points": 150.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "2",
+      "points": 135.0
+     },
+     {
+      "event": "BS U17",
+      "placing": "5/8",
+      "points": 120.0
+     }
+    ]
+   },
+   {
+    "tournament": "Tapion Sulan U9-U15 kisa 2026",
+    "date": "2026-10-03",
+    "week": "2026-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/86585624-c2c7-467d-8055-f9ff06ab1e3c",
+    "points": 225.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 135.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "3/4",
+      "points": 90.0
+     }
+    ]
+   },
+   {
+    "tournament": "RSL Finnish Youth 2026",
+    "date": "2026-10-24",
+    "week": "2026-43",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4585f1e0-abe0-49b0-ae2e-c25824f8fef8",
+    "points": 300.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 150.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "5/8",
+      "points": 150.0
+     }
+    ]
+   }
+  ]
+ },
+ "Pauli Alapukki": {
+  "member_id": "6336010",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=6336010",
+  "season_points": 882.5,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylän Elokuun kansalliset",
+    "date": "2026-08-15",
+    "week": "2026-33",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/fbf6d067-0386-4cf7-99f4-0be2d8d3a9f0",
+    "points": 32.5,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "5/8",
+      "points": 20.0
+     },
+     {
+      "event": "MS A",
+      "placing": "5/8",
+      "points": 12.5
+     }
+    ]
+   },
+   {
+    "tournament": "Ylivieskan kansallinen 2026",
+    "date": "2026-08-22",
+    "week": "2026-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
+    "points": 540.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "3/4",
+      "points": 300.0
+     },
+     {
+      "event": "MD B",
+      "placing": "1",
+      "points": 240.0
+     }
+    ]
+   },
+   {
+    "tournament": "FZ Forza Sulkaset Eliitti 2026",
+    "date": "2026-09-26",
+    "week": "2026-39",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "points": 310.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "17/32",
+      "points": 300.0
+     },
+     {
+      "event": "MD B",
+      "placing": "17/32",
+      "points": 10.0
+     }
+    ]
+   }
+  ]
+ },
+ "Markus Heikkinen": {
+  "member_id": "2377313",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2377313",
+  "season_points": 440.0,
+  "tournaments": [
+   {
+    "tournament": "FZ Forza Sulkaset Eliitti 2026",
+    "date": "2026-09-26",
+    "week": "2026-39",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "points": 440.0,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "2",
+      "points": 440.0
+     }
+    ]
    }
   ]
  },
  "Jinu John": {
   "member_id": "6887913",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=6887913",
-  "season_points": 165.0,
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=6887913",
+  "season_points": 227.5,
   "tournaments": [
    {
     "tournament": "Jyväskylän Elokuun kansalliset",
@@ -193,12 +340,246 @@
       "points": 2.5
      }
     ]
+   },
+   {
+    "tournament": "Puistolan juniorikansallinen + BC - 2026",
+    "date": "2026-09-19",
+    "week": "2026-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+    "points": 62.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "3/4",
+      "points": 60.0
+     },
+     {
+      "event": "MD B",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Marko Koivusaari": {
+  "member_id": "2377280",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2377280",
+  "season_points": 225.0,
+  "tournaments": [
+   {
+    "tournament": "Helsinki Open Eliitti 2026",
+    "date": "2026-10-30",
+    "week": "2026-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4bd6578f-c127-4b85-b197-c52f77ef324c",
+    "points": 225.0,
+    "events": [
+     {
+      "event": "MD A",
+      "placing": "9/16",
+      "points": 200.0
+     },
+     {
+      "event": "MS A",
+      "placing": "33/64",
+      "points": 25.0
+     }
+    ]
+   }
+  ]
+ },
+ "Sanath K S": {
+  "member_id": "8337049",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8337049",
+  "season_points": 195.0,
+  "tournaments": [
+   {
+    "tournament": "Jyväskylän Elokuun kansalliset",
+    "date": "2026-08-15",
+    "week": "2026-33",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/fbf6d067-0386-4cf7-99f4-0be2d8d3a9f0",
+    "points": 102.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "1",
+      "points": 100.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+    "date": "2026-10-03",
+    "week": "2026-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "points": 92.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "2",
+      "points": 90.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Ashlyn Jinu": {
+  "member_id": "7142812",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=7142812",
+  "season_points": 156.0,
+  "tournaments": [
+   {
+    "tournament": "Puistolan juniorikansallinen + BC - 2026",
+    "date": "2026-09-19",
+    "week": "2026-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+    "points": 28.0,
+    "events": [
+     {
+      "event": "GS U11",
+      "placing": "2",
+      "points": 28.0
+     }
+    ]
+   },
+   {
+    "tournament": "Tapion Sulan U9-U15 kisa 2026",
+    "date": "2026-10-03",
+    "week": "2026-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/86585624-c2c7-467d-8055-f9ff06ab1e3c",
+    "points": 56.0,
+    "events": [
+     {
+      "event": "GD U13",
+      "placing": "2",
+      "points": 40.0
+     },
+     {
+      "event": "GS U11",
+      "placing": "3/4",
+      "points": 16.0
+     }
+    ]
+   },
+   {
+    "tournament": "RSL Finnish Youth 2026",
+    "date": "2026-10-24",
+    "week": "2026-43",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4585f1e0-abe0-49b0-ae2e-c25824f8fef8",
+    "points": 72.0,
+    "events": [
+     {
+      "event": "GS U11",
+      "placing": "2",
+      "points": 42.0
+     },
+     {
+      "event": "GD U11",
+      "placing": "2",
+      "points": 30.0
+     }
+    ]
+   }
+  ]
+ },
+ "Ajith Kutty": {
+  "member_id": "2698034",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2698034",
+  "season_points": 155.0,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan kansallinen 2026",
+    "date": "2026-08-22",
+    "week": "2026-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
+    "points": 62.5,
+    "events": [
+     {
+      "event": "MD B",
+      "placing": "5/8",
+      "points": 60.0
+     },
+     {
+      "event": "MD C",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+    "date": "2026-10-03",
+    "week": "2026-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "points": 92.5,
+    "events": [
+     {
+      "event": "MD C",
+      "placing": "2",
+      "points": 90.0
+     },
+     {
+      "event": "MD B",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Ashwath Kutty": {
+  "member_id": "8322098",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8322098",
+  "season_points": 152.5,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan kansallinen 2026",
+    "date": "2026-08-22",
+    "week": "2026-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+    "date": "2026-10-03",
+    "week": "2026-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "points": 150.0,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "1",
+      "points": 100.0
+     },
+     {
+      "event": "BD U15",
+      "placing": "2",
+      "points": 50.0
+     }
+    ]
    }
   ]
  },
  "Juhana Paaso": {
   "member_id": "7143531",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=7143531",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=7143531",
   "season_points": 142.5,
   "tournaments": [
    {
@@ -227,25 +608,39 @@
    }
   ]
  },
- "Sanath K S": {
-  "member_id": "8337049",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8337049",
-  "season_points": 102.5,
+ "Narasimhulu Thoti": {
+  "member_id": "7904569",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=7904569",
+  "season_points": 107.5,
   "tournaments": [
    {
-    "tournament": "Jyväskylän Elokuun kansalliset",
-    "date": "2026-08-15",
-    "week": "2026-33",
-    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/fbf6d067-0386-4cf7-99f4-0be2d8d3a9f0",
-    "points": 102.5,
+    "tournament": "Ylivieskan kansallinen 2026",
+    "date": "2026-08-22",
+    "week": "2026-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
+    "points": 100.0,
     "events": [
      {
-      "event": "MD C",
-      "placing": "1",
+      "event": "XD B",
+      "placing": "2",
       "points": 100.0
+     }
+    ]
+   },
+   {
+    "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+    "date": "2026-10-03",
+    "week": "2026-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "points": 7.5,
+    "events": [
+     {
+      "event": "XD B",
+      "placing": "17/32",
+      "points": 5.0
      },
      {
-      "event": "MD B",
+      "event": "MS C",
       "placing": "9/16",
       "points": 2.5
      }
@@ -255,8 +650,8 @@
  },
  "Nipun Waas": {
   "member_id": "9318269",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9318269",
-  "season_points": 100.0,
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9318269",
+  "season_points": 105.0,
   "tournaments": [
    {
     "tournament": "Ylivieskan kansallinen 2026",
@@ -276,25 +671,23 @@
       "points": 40.0
      }
     ]
-   }
-  ]
- },
- "Narasimhulu Thoti": {
-  "member_id": "7904569",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=7904569",
-  "season_points": 100.0,
-  "tournaments": [
+   },
    {
-    "tournament": "Ylivieskan kansallinen 2026",
-    "date": "2026-08-22",
-    "week": "2026-34",
-    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
-    "points": 100.0,
+    "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+    "date": "2026-10-03",
+    "week": "2026-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "points": 5.0,
     "events": [
      {
-      "event": "XD B",
-      "placing": "2",
-      "points": 100.0
+      "event": "MS C",
+      "placing": "9/16",
+      "points": 2.5
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
      }
     ]
    }
@@ -302,7 +695,7 @@
  },
  "Parisa Rezaeei": {
   "member_id": "8297046",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8297046",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8297046",
   "season_points": 100.0,
   "tournaments": [
    {
@@ -321,36 +714,10 @@
    }
   ]
  },
- "Ajith Kutty": {
-  "member_id": "2698034",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=2698034",
-  "season_points": 62.5,
-  "tournaments": [
-   {
-    "tournament": "Ylivieskan kansallinen 2026",
-    "date": "2026-08-22",
-    "week": "2026-34",
-    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
-    "points": 62.5,
-    "events": [
-     {
-      "event": "MD B",
-      "placing": "5/8",
-      "points": 60.0
-     },
-     {
-      "event": "MD C",
-      "placing": "9/16",
-      "points": 2.5
-     }
-    ]
-   }
-  ]
- },
  "Nuwan Withanage": {
   "member_id": "9363921",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9363921",
-  "season_points": 60.0,
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9363921",
+  "season_points": 85.0,
   "tournaments": [
    {
     "tournament": "Ylivieskan kansallinen 2026",
@@ -365,12 +732,26 @@
       "points": 60.0
      }
     ]
+   },
+   {
+    "tournament": "FZ Forza Sulkaset Eliitti 2026",
+    "date": "2026-09-26",
+    "week": "2026-39",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "points": 25.0,
+    "events": [
+     {
+      "event": "MS A",
+      "placing": "33/64",
+      "points": 25.0
+     }
+    ]
    }
   ]
  },
  "Yini Wang": {
   "member_id": "9764412",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9764412",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9764412",
   "season_points": 40.0,
   "tournaments": [
    {
@@ -389,9 +770,63 @@
    }
   ]
  },
+ "Tapani Kilpi": {
+  "member_id": "2377305",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2377305",
+  "season_points": 35.1,
+  "tournaments": [
+   {
+    "tournament": "Sulkakauppa ESB Premier Elite 2026",
+    "date": "2026-09-05",
+    "week": "2026-36",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4f3325fa-5501-4dd1-83e8-f01e49ca7441",
+    "points": 16.3,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "33/64",
+      "points": 16.3
+     }
+    ]
+   },
+   {
+    "tournament": "Puistolan juniorikansallinen + BC - 2026",
+    "date": "2026-09-19",
+    "week": "2026-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+    "points": 5.0,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "17/32",
+      "points": 5.0
+     }
+    ]
+   },
+   {
+    "tournament": "Helsinki Open Eliitti 2026",
+    "date": "2026-10-30",
+    "week": "2026-44",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4bd6578f-c127-4b85-b197-c52f77ef324c",
+    "points": 13.8,
+    "events": [
+     {
+      "event": "MS B",
+      "placing": "33/64",
+      "points": 10.0
+     },
+     {
+      "event": "MD B",
+      "placing": "33/64",
+      "points": 3.8
+     }
+    ]
+   }
+  ]
+ },
  "Paavo Ihme": {
   "member_id": "9740052",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9740052",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9740052",
   "season_points": 32.5,
   "tournaments": [
    {
@@ -415,9 +850,94 @@
    }
   ]
  },
+ "Eemil Manninen": {
+  "member_id": "9342414",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9342414",
+  "season_points": 15.0,
+  "tournaments": [
+   {
+    "tournament": "Mansen Sulan Ylöjärven kansalliset 2026",
+    "date": "2026-09-19",
+    "week": "2026-38",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/f8a75e27-7165-421f-8a14-5557c9fdb16d",
+    "points": 12.5,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "5/8",
+      "points": 10.0
+     },
+     {
+      "event": "MS C",
+      "placing": "17/32",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "FZ Forza Sulkaset Eliitti 2026",
+    "date": "2026-09-26",
+    "week": "2026-39",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "BS U15",
+      "placing": "9/16",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
+ "Anniina Saarela": {
+  "member_id": "9278908",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9278908",
+  "season_points": 10.0,
+  "tournaments": [
+   {
+    "tournament": "Ylivieskan kansallinen 2026",
+    "date": "2026-08-22",
+    "week": "2026-34",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
+    "points": 2.5,
+    "events": [
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   },
+   {
+    "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+    "date": "2026-10-03",
+    "week": "2026-40",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "points": 7.5,
+    "events": [
+     {
+      "event": "WS C",
+      "placing": "3/4",
+      "points": 2.5
+     },
+     {
+      "event": "WD C",
+      "placing": "5/8",
+      "points": 2.5
+     },
+     {
+      "event": "XD C",
+      "placing": "5/8",
+      "points": 2.5
+     }
+    ]
+   }
+  ]
+ },
  "Senuka Weeraddana": {
   "member_id": "8311835",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8311835",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8311835",
   "season_points": 10.0,
   "tournaments": [
    {
@@ -438,7 +958,7 @@
  },
  "Zhuo Su": {
   "member_id": "9252747",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9252747",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9252747",
   "season_points": 5.0,
   "tournaments": [
    {
@@ -464,7 +984,7 @@
  },
  "Sreenadh T S": {
   "member_id": "9742117",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9742117",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9742117",
   "season_points": 5.0,
   "tournaments": [
    {
@@ -488,51 +1008,9 @@
    }
   ]
  },
- "Anniina Saarela": {
-  "member_id": "9278908",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9278908",
-  "season_points": 2.5,
-  "tournaments": [
-   {
-    "tournament": "Ylivieskan kansallinen 2026",
-    "date": "2026-08-22",
-    "week": "2026-34",
-    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
-    "points": 2.5,
-    "events": [
-     {
-      "event": "XD C",
-      "placing": "5/8",
-      "points": 2.5
-     }
-    ]
-   }
-  ]
- },
- "Ashwath Kutty": {
-  "member_id": "8322098",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8322098",
-  "season_points": 2.5,
-  "tournaments": [
-   {
-    "tournament": "Ylivieskan kansallinen 2026",
-    "date": "2026-08-22",
-    "week": "2026-34",
-    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
-    "points": 2.5,
-    "events": [
-     {
-      "event": "BS U15",
-      "placing": "9/16",
-      "points": 2.5
-     }
-    ]
-   }
-  ]
- },
  "Somnas Dasanayake": {
   "member_id": "8322103",
-  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8322103",
+  "url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8322103",
   "season_points": 2.5,
   "tournaments": [
    {

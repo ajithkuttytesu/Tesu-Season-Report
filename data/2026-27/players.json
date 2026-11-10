@@ -1,17 +1,21 @@
 [
   {
     "name": "Ilari Leskelä",
-    "tournaments_played": 1,
+    "tournaments_played": 2,
     "tournaments": [
       [
         "2026-08-22",
         "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-09-26",
+        "FZ Forza Sulkaset Eliitti 2026"
       ]
     ],
-    "gold": 1,
+    "gold": 2,
     "silver": 1,
     "bronze": 0,
-    "total_medals": 2,
+    "total_medals": 3,
     "medals": [
       {
         "date": "2026-08-22",
@@ -34,9 +38,19 @@
           "Eetu Hanhineva"
         ],
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-09-26",
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "event": "MS A",
+        "division": "A",
+        "medal": "Gold",
+        "place": "1",
+        "partners": [],
+        "confidence": "confirmed"
       }
     ],
-    "ranking_points": 950.0,
+    "ranking_points": 2950.0,
     "ranking_tournaments": [
       {
         "tournament": "Ylivieskan kansallinen 2026",
@@ -56,14 +70,262 @@
             "points": 350.0
           }
         ]
+      },
+      {
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "date": "2026-09-26",
+        "week": "2026-39",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+        "points": 2000.0,
+        "events": [
+          {
+            "event": "MS A",
+            "placing": "1",
+            "points": 2000.0
+          }
+        ]
       }
     ],
     "ranking_member_id": "2377259",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=2377259"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2377259"
+  },
+  {
+    "name": "Elias Vuollet",
+    "tournaments_played": 1,
+    "tournaments": [
+      [
+        "2026-09-26",
+        "FZ Forza Sulkaset Eliitti 2026"
+      ]
+    ],
+    "gold": 1,
+    "silver": 1,
+    "bronze": 0,
+    "total_medals": 2,
+    "medals": [
+      {
+        "date": "2026-09-26",
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "event": "MS A",
+        "division": "A",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-09-26",
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "event": "XD A",
+        "division": "A",
+        "medal": "Gold",
+        "place": "1",
+        "partners": [
+          "Eerika Laakso"
+        ],
+        "confidence": "confirmed"
+      }
+    ],
+    "ranking_points": 3800.0,
+    "ranking_tournaments": [
+      {
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "date": "2026-09-26",
+        "week": "2026-39",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+        "points": 3800.0,
+        "events": [
+          {
+            "event": "MS A",
+            "placing": "2",
+            "points": 1700.0
+          },
+          {
+            "event": "XD A",
+            "placing": "1",
+            "points": 1400.0
+          },
+          {
+            "event": "MD A",
+            "placing": "5/8",
+            "points": 700.0
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "2648138",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2648138"
+  },
+  {
+    "name": "Sanath K S",
+    "tournaments_played": 2,
+    "tournaments": [
+      [
+        "2026-08-15",
+        "Jyväskylän Elokuun kansalliset"
+      ],
+      [
+        "2026-10-03",
+        "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu"
+      ]
+    ],
+    "gold": 1,
+    "silver": 1,
+    "bronze": 0,
+    "total_medals": 2,
+    "medals": [
+      {
+        "date": "2026-08-15",
+        "tournament": "Jyväskylän Elokuun kansalliset",
+        "event": "MD C",
+        "division": "C",
+        "medal": "Gold",
+        "place": "1",
+        "partners": [
+          "Jinu John"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-10-03",
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "event": "MD C",
+        "division": "C",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [
+          "Ajith Kutty"
+        ],
+        "confidence": "confirmed"
+      }
+    ],
+    "ranking_points": 195.0,
+    "ranking_tournaments": [
+      {
+        "tournament": "Jyväskylän Elokuun kansalliset",
+        "date": "2026-08-15",
+        "week": "2026-33",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/fbf6d067-0386-4cf7-99f4-0be2d8d3a9f0",
+        "points": 102.5,
+        "events": [
+          {
+            "event": "MD C",
+            "placing": "1",
+            "points": 100.0
+          },
+          {
+            "event": "MD B",
+            "placing": "9/16",
+            "points": 2.5
+          }
+        ]
+      },
+      {
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "date": "2026-10-03",
+        "week": "2026-40",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+        "points": 92.5,
+        "events": [
+          {
+            "event": "MD C",
+            "placing": "2",
+            "points": 90.0
+          },
+          {
+            "event": "MD B",
+            "placing": "9/16",
+            "points": 2.5
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "8337049",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8337049"
+  },
+  {
+    "name": "Ashwath Kutty",
+    "tournaments_played": 2,
+    "tournaments": [
+      [
+        "2026-08-22",
+        "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-10-03",
+        "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu"
+      ]
+    ],
+    "gold": 1,
+    "silver": 1,
+    "bronze": 0,
+    "total_medals": 2,
+    "medals": [
+      {
+        "date": "2026-10-03",
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "event": "BS U15",
+        "division": "Junior",
+        "medal": "Gold",
+        "place": "1",
+        "partners": [],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-10-03",
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "event": "BD U15",
+        "division": "Junior",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [
+          "Sebastian Isokangas"
+        ],
+        "confidence": "confirmed"
+      }
+    ],
+    "ranking_points": 152.5,
+    "ranking_tournaments": [
+      {
+        "tournament": "Ylivieskan kansallinen 2026",
+        "date": "2026-08-22",
+        "week": "2026-34",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
+        "points": 2.5,
+        "events": [
+          {
+            "event": "BS U15",
+            "placing": "9/16",
+            "points": 2.5
+          }
+        ]
+      },
+      {
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "date": "2026-10-03",
+        "week": "2026-40",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+        "points": 150.0,
+        "events": [
+          {
+            "event": "BS U15",
+            "placing": "1",
+            "points": 100.0
+          },
+          {
+            "event": "BD U15",
+            "placing": "2",
+            "points": 50.0
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "8322098",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8322098"
   },
   {
     "name": "Pauli Alapukki",
-    "tournaments_played": 2,
+    "tournaments_played": 3,
     "tournaments": [
       [
         "2026-08-15",
@@ -72,6 +334,10 @@
       [
         "2026-08-22",
         "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-09-26",
+        "FZ Forza Sulkaset Eliitti 2026"
       ]
     ],
     "gold": 1,
@@ -102,7 +368,7 @@
         "confidence": "confirmed"
       }
     ],
-    "ranking_points": 572.5,
+    "ranking_points": 882.5,
     "ranking_tournaments": [
       {
         "tournament": "Jyväskylän Elokuun kansalliset",
@@ -141,14 +407,33 @@
             "points": 240.0
           }
         ]
+      },
+      {
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "date": "2026-09-26",
+        "week": "2026-39",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+        "points": 310.0,
+        "events": [
+          {
+            "event": "MS A",
+            "placing": "17/32",
+            "points": 300.0
+          },
+          {
+            "event": "MD B",
+            "placing": "17/32",
+            "points": 10.0
+          }
+        ]
       }
     ],
     "ranking_member_id": "6336010",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=6336010"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=6336010"
   },
   {
     "name": "Jinu John",
-    "tournaments_played": 2,
+    "tournaments_played": 3,
     "tournaments": [
       [
         "2026-08-15",
@@ -157,12 +442,16 @@
       [
         "2026-08-22",
         "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-09-19",
+        "Puistolan juniorikansallinen + BC - 2026"
       ]
     ],
     "gold": 1,
     "silver": 0,
-    "bronze": 0,
-    "total_medals": 1,
+    "bronze": 1,
+    "total_medals": 2,
     "medals": [
       {
         "date": "2026-08-15",
@@ -175,9 +464,21 @@
           "Sanath K S"
         ],
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-09-19",
+        "tournament": "Puistolan juniorikansallinen + BC - 2026",
+        "event": "MD C",
+        "division": "C",
+        "medal": "Bronze",
+        "place": "3/4",
+        "partners": [
+          "Kha Le Tuan"
+        ],
+        "confidence": "confirmed"
       }
     ],
-    "ranking_points": 165.0,
+    "ranking_points": 227.5,
     "ranking_tournaments": [
       {
         "tournament": "Jyväskylän Elokuun kansalliset",
@@ -216,66 +517,168 @@
             "points": 2.5
           }
         ]
-      }
-    ],
-    "ranking_member_id": "6887913",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=6887913"
-  },
-  {
-    "name": "Sanath K S",
-    "tournaments_played": 1,
-    "tournaments": [
-      [
-        "2026-08-15",
-        "Jyväskylän Elokuun kansalliset"
-      ]
-    ],
-    "gold": 1,
-    "silver": 0,
-    "bronze": 0,
-    "total_medals": 1,
-    "medals": [
+      },
       {
-        "date": "2026-08-15",
-        "tournament": "Jyväskylän Elokuun kansalliset",
-        "event": "MD C",
-        "division": "C",
-        "medal": "Gold",
-        "place": "1",
-        "partners": [
-          "Jinu John"
-        ],
-        "confidence": "confirmed"
-      }
-    ],
-    "ranking_points": 102.5,
-    "ranking_tournaments": [
-      {
-        "tournament": "Jyväskylän Elokuun kansalliset",
-        "date": "2026-08-15",
-        "week": "2026-33",
-        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/fbf6d067-0386-4cf7-99f4-0be2d8d3a9f0",
-        "points": 102.5,
+        "tournament": "Puistolan juniorikansallinen + BC - 2026",
+        "date": "2026-09-19",
+        "week": "2026-38",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+        "points": 62.5,
         "events": [
           {
             "event": "MD C",
-            "placing": "1",
-            "points": 100.0
+            "placing": "3/4",
+            "points": 60.0
           },
           {
             "event": "MD B",
-            "placing": "9/16",
+            "placing": "5/8",
             "points": 2.5
           }
         ]
       }
     ],
-    "ranking_member_id": "8337049",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8337049"
+    "ranking_member_id": "6887913",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=6887913"
+  },
+  {
+    "name": "Ashlyn Jinu",
+    "tournaments_played": 3,
+    "tournaments": [
+      [
+        "2026-09-19",
+        "Puistolan juniorikansallinen + BC - 2026"
+      ],
+      [
+        "2026-10-03",
+        "Tapion Sulan U9-U15 kisa 2026"
+      ],
+      [
+        "2026-10-24",
+        "RSL Finnish Youth 2026"
+      ]
+    ],
+    "gold": 0,
+    "silver": 4,
+    "bronze": 1,
+    "total_medals": 5,
+    "medals": [
+      {
+        "date": "2026-09-19",
+        "tournament": "Puistolan juniorikansallinen + BC - 2026",
+        "event": "GS U11",
+        "division": "Junior",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-10-03",
+        "tournament": "Tapion Sulan U9-U15 kisa 2026",
+        "event": "GS U11",
+        "division": "Junior",
+        "medal": "Bronze",
+        "place": "3",
+        "partners": [],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-10-03",
+        "tournament": "Tapion Sulan U9-U15 kisa 2026",
+        "event": "GD U13",
+        "division": "Junior",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [
+          "Aaradhya Jessica Sowpati"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-10-24",
+        "tournament": "RSL Finnish Youth 2026",
+        "event": "GS U11",
+        "division": "Junior",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-10-24",
+        "tournament": "RSL Finnish Youth 2026",
+        "event": "GD U11",
+        "division": "Junior",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [
+          "Aaradhya Jessica Sowpati"
+        ],
+        "confidence": "confirmed"
+      }
+    ],
+    "ranking_points": 156.0,
+    "ranking_tournaments": [
+      {
+        "tournament": "Puistolan juniorikansallinen + BC - 2026",
+        "date": "2026-09-19",
+        "week": "2026-38",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+        "points": 28.0,
+        "events": [
+          {
+            "event": "GS U11",
+            "placing": "2",
+            "points": 28.0
+          }
+        ]
+      },
+      {
+        "tournament": "Tapion Sulan U9-U15 kisa 2026",
+        "date": "2026-10-03",
+        "week": "2026-40",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/86585624-c2c7-467d-8055-f9ff06ab1e3c",
+        "points": 56.0,
+        "events": [
+          {
+            "event": "GD U13",
+            "placing": "2",
+            "points": 40.0
+          },
+          {
+            "event": "GS U11",
+            "placing": "3/4",
+            "points": 16.0
+          }
+        ]
+      },
+      {
+        "tournament": "RSL Finnish Youth 2026",
+        "date": "2026-10-24",
+        "week": "2026-43",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4585f1e0-abe0-49b0-ae2e-c25824f8fef8",
+        "points": 72.0,
+        "events": [
+          {
+            "event": "GS U11",
+            "placing": "2",
+            "points": 42.0
+          },
+          {
+            "event": "GD U11",
+            "placing": "2",
+            "points": 30.0
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "7142812",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=7142812"
   },
   {
     "name": "Jonathan Jinu John",
-    "tournaments_played": 2,
+    "tournaments_played": 5,
     "tournaments": [
       [
         "2026-08-15",
@@ -284,12 +687,24 @@
       [
         "2026-08-22",
         "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-09-19",
+        "Puistolan juniorikansallinen + BC - 2026"
+      ],
+      [
+        "2026-10-03",
+        "Tapion Sulan U9-U15 kisa 2026"
+      ],
+      [
+        "2026-10-24",
+        "RSL Finnish Youth 2026"
       ]
     ],
     "gold": 0,
-    "silver": 1,
-    "bronze": 1,
-    "total_medals": 2,
+    "silver": 2,
+    "bronze": 3,
+    "total_medals": 5,
     "medals": [
       {
         "date": "2026-08-22",
@@ -310,9 +725,43 @@
         "place": "2",
         "partners": [],
         "confidence": "confirmed"
+      },
+      {
+        "date": "2026-09-19",
+        "tournament": "Puistolan juniorikansallinen + BC - 2026",
+        "event": "BS U15",
+        "division": "Junior",
+        "medal": "Bronze",
+        "place": "3/4",
+        "partners": [],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-09-19",
+        "tournament": "Puistolan juniorikansallinen + BC - 2026",
+        "event": "BD U15",
+        "division": "Junior",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [
+          "Zaki Payo"
+        ],
+        "confidence": "confirmed"
+      },
+      {
+        "date": "2026-10-03",
+        "tournament": "Tapion Sulan U9-U15 kisa 2026",
+        "event": "BD U15",
+        "division": "Junior",
+        "medal": "Bronze",
+        "place": "3/4",
+        "partners": [
+          "Zaki Payo"
+        ],
+        "confidence": "confirmed"
       }
     ],
-    "ranking_points": 267.5,
+    "ranking_points": 1197.5,
     "ranking_tournaments": [
       {
         "tournament": "Jyväskylän Elokuun kansalliset",
@@ -356,18 +805,206 @@
             "points": 2.5
           }
         ]
+      },
+      {
+        "tournament": "Puistolan juniorikansallinen + BC - 2026",
+        "date": "2026-09-19",
+        "week": "2026-38",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+        "points": 405.0,
+        "events": [
+          {
+            "event": "BS U15",
+            "placing": "3/4",
+            "points": 150.0
+          },
+          {
+            "event": "BD U15",
+            "placing": "2",
+            "points": 135.0
+          },
+          {
+            "event": "BS U17",
+            "placing": "5/8",
+            "points": 120.0
+          }
+        ]
+      },
+      {
+        "tournament": "Tapion Sulan U9-U15 kisa 2026",
+        "date": "2026-10-03",
+        "week": "2026-40",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/86585624-c2c7-467d-8055-f9ff06ab1e3c",
+        "points": 225.0,
+        "events": [
+          {
+            "event": "BS U15",
+            "placing": "5/8",
+            "points": 135.0
+          },
+          {
+            "event": "BD U15",
+            "placing": "3/4",
+            "points": 90.0
+          }
+        ]
+      },
+      {
+        "tournament": "RSL Finnish Youth 2026",
+        "date": "2026-10-24",
+        "week": "2026-43",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4585f1e0-abe0-49b0-ae2e-c25824f8fef8",
+        "points": 300.0,
+        "events": [
+          {
+            "event": "BS U15",
+            "placing": "9/16",
+            "points": 150.0
+          },
+          {
+            "event": "BD U15",
+            "placing": "5/8",
+            "points": 150.0
+          }
+        ]
       }
     ],
     "ranking_member_id": "6409529",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=6409529"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=6409529"
   },
   {
-    "name": "Narasimhulu Thoti",
+    "name": "Markus Heikkinen",
     "tournaments_played": 1,
+    "tournaments": [
+      [
+        "2026-09-26",
+        "FZ Forza Sulkaset Eliitti 2026"
+      ]
+    ],
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total_medals": 1,
+    "medals": [
+      {
+        "date": "2026-09-26",
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "event": "MD B",
+        "division": "B",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [
+          "Jukka-Pekka Keinänen"
+        ],
+        "confidence": "confirmed"
+      }
+    ],
+    "ranking_points": 440.0,
+    "ranking_tournaments": [
+      {
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "date": "2026-09-26",
+        "week": "2026-39",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+        "points": 440.0,
+        "events": [
+          {
+            "event": "MD B",
+            "placing": "2",
+            "points": 440.0
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "2377313",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2377313"
+  },
+  {
+    "name": "Ajith Kutty",
+    "tournaments_played": 2,
     "tournaments": [
       [
         "2026-08-22",
         "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-10-03",
+        "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu"
+      ]
+    ],
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total_medals": 1,
+    "medals": [
+      {
+        "date": "2026-10-03",
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "event": "MD C",
+        "division": "C",
+        "medal": "Silver",
+        "place": "2",
+        "partners": [
+          "Sanath K S"
+        ],
+        "confidence": "confirmed"
+      }
+    ],
+    "ranking_points": 155.0,
+    "ranking_tournaments": [
+      {
+        "tournament": "Ylivieskan kansallinen 2026",
+        "date": "2026-08-22",
+        "week": "2026-34",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
+        "points": 62.5,
+        "events": [
+          {
+            "event": "MD B",
+            "placing": "5/8",
+            "points": 60.0
+          },
+          {
+            "event": "MD C",
+            "placing": "9/16",
+            "points": 2.5
+          }
+        ]
+      },
+      {
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "date": "2026-10-03",
+        "week": "2026-40",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+        "points": 92.5,
+        "events": [
+          {
+            "event": "MD C",
+            "placing": "2",
+            "points": 90.0
+          },
+          {
+            "event": "MD B",
+            "placing": "9/16",
+            "points": 2.5
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "2698034",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2698034"
+  },
+  {
+    "name": "Narasimhulu Thoti",
+    "tournaments_played": 2,
+    "tournaments": [
+      [
+        "2026-08-22",
+        "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-10-03",
+        "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu"
       ]
     ],
     "gold": 0,
@@ -388,7 +1025,7 @@
         "confidence": "confirmed"
       }
     ],
-    "ranking_points": 100.0,
+    "ranking_points": 107.5,
     "ranking_tournaments": [
       {
         "tournament": "Ylivieskan kansallinen 2026",
@@ -403,10 +1040,29 @@
             "points": 100.0
           }
         ]
+      },
+      {
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "date": "2026-10-03",
+        "week": "2026-40",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+        "points": 7.5,
+        "events": [
+          {
+            "event": "XD B",
+            "placing": "17/32",
+            "points": 5.0
+          },
+          {
+            "event": "MS C",
+            "placing": "9/16",
+            "points": 2.5
+          }
+        ]
       }
     ],
     "ranking_member_id": "7904569",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=7904569"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=7904569"
   },
   {
     "name": "Parisa Rezaeei",
@@ -453,7 +1109,7 @@
       }
     ],
     "ranking_member_id": "8297046",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8297046"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8297046"
   },
   {
     "name": "Nelly Määttä",
@@ -504,17 +1160,17 @@
         "points": 2700.0,
         "events": [
           {
-            "event": "WD V",
+            "event": "NN V",
             "placing": "3/4",
             "points": 1200.0
           },
           {
-            "event": "XD V",
+            "event": "Naiset SN V",
             "placing": "3/4",
             "points": 1200.0
           },
           {
-            "event": "WS A",
+            "event": "NK A",
             "placing": "5/8",
             "points": 300.0
           }
@@ -522,7 +1178,7 @@
       }
     ],
     "ranking_member_id": "4688983",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=4688983"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=4688983"
   },
   {
     "name": "Juhana Paaso",
@@ -577,15 +1233,19 @@
       }
     ],
     "ranking_member_id": "7143531",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=7143531"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=7143531"
   },
   {
     "name": "Nipun Waas",
-    "tournaments_played": 1,
+    "tournaments_played": 2,
     "tournaments": [
       [
         "2026-08-22",
         "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-10-03",
+        "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu"
       ]
     ],
     "gold": 0,
@@ -606,7 +1266,7 @@
         "confidence": "confirmed"
       }
     ],
-    "ranking_points": 100.0,
+    "ranking_points": 105.0,
     "ranking_tournaments": [
       {
         "tournament": "Ylivieskan kansallinen 2026",
@@ -626,10 +1286,29 @@
             "points": 40.0
           }
         ]
+      },
+      {
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "date": "2026-10-03",
+        "week": "2026-40",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+        "points": 5.0,
+        "events": [
+          {
+            "event": "MS C",
+            "placing": "9/16",
+            "points": 2.5
+          },
+          {
+            "event": "XD C",
+            "placing": "5/8",
+            "points": 2.5
+          }
+        ]
       }
     ],
     "ranking_member_id": "9318269",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9318269"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9318269"
   },
   {
     "name": "Yini Wang",
@@ -676,7 +1355,7 @@
       }
     ],
     "ranking_member_id": "9764412",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9764412"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9764412"
   },
   {
     "name": "Paavo Ihme",
@@ -726,54 +1405,88 @@
       }
     ],
     "ranking_member_id": "9740052",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9740052"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9740052"
   },
   {
-    "name": "Ajith Kutty",
-    "tournaments_played": 1,
+    "name": "Anniina Saarela",
+    "tournaments_played": 2,
     "tournaments": [
       [
         "2026-08-22",
         "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-10-03",
+        "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu"
       ]
     ],
     "gold": 0,
     "silver": 0,
-    "bronze": 0,
-    "total_medals": 0,
-    "medals": [],
-    "ranking_points": 62.5,
+    "bronze": 1,
+    "total_medals": 1,
+    "medals": [
+      {
+        "date": "2026-10-03",
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "event": "WS C",
+        "division": "C",
+        "medal": "Bronze",
+        "place": "3",
+        "partners": [],
+        "confidence": "confirmed"
+      }
+    ],
+    "ranking_points": 10.0,
     "ranking_tournaments": [
       {
         "tournament": "Ylivieskan kansallinen 2026",
         "date": "2026-08-22",
         "week": "2026-34",
         "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
-        "points": 62.5,
+        "points": 2.5,
         "events": [
           {
-            "event": "MD B",
+            "event": "XD C",
             "placing": "5/8",
-            "points": 60.0
+            "points": 2.5
+          }
+        ]
+      },
+      {
+        "tournament": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+        "date": "2026-10-03",
+        "week": "2026-40",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+        "points": 7.5,
+        "events": [
+          {
+            "event": "WS C",
+            "placing": "3/4",
+            "points": 2.5
           },
           {
-            "event": "MD C",
-            "placing": "9/16",
+            "event": "WD C",
+            "placing": "5/8",
+            "points": 2.5
+          },
+          {
+            "event": "XD C",
+            "placing": "5/8",
             "points": 2.5
           }
         ]
       }
     ],
-    "ranking_member_id": "2698034",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=2698034"
+    "ranking_member_id": "9278908",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9278908"
   },
   {
-    "name": "Nuwan Withanage",
+    "name": "Marko Koivusaari",
     "tournaments_played": 1,
     "tournaments": [
       [
-        "2026-08-22",
-        "Ylivieskan kansallinen"
+        "2026-10-30",
+        "Helsinki Open Eliitti 2026"
       ]
     ],
     "gold": 0,
@@ -781,7 +1494,50 @@
     "bronze": 0,
     "total_medals": 0,
     "medals": [],
-    "ranking_points": 60.0,
+    "ranking_points": 225.0,
+    "ranking_tournaments": [
+      {
+        "tournament": "Helsinki Open Eliitti 2026",
+        "date": "2026-10-30",
+        "week": "2026-44",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4bd6578f-c127-4b85-b197-c52f77ef324c",
+        "points": 225.0,
+        "events": [
+          {
+            "event": "MD A",
+            "placing": "9/16",
+            "points": 200.0
+          },
+          {
+            "event": "MS A",
+            "placing": "33/64",
+            "points": 25.0
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "2377280",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2377280"
+  },
+  {
+    "name": "Nuwan Withanage",
+    "tournaments_played": 2,
+    "tournaments": [
+      [
+        "2026-08-22",
+        "Ylivieskan kansallinen"
+      ],
+      [
+        "2026-09-26",
+        "FZ Forza Sulkaset Eliitti 2026"
+      ]
+    ],
+    "gold": 0,
+    "silver": 0,
+    "bronze": 0,
+    "total_medals": 0,
+    "medals": [],
+    "ranking_points": 85.0,
     "ranking_tournaments": [
       {
         "tournament": "Ylivieskan kansallinen 2026",
@@ -796,10 +1552,156 @@
             "points": 60.0
           }
         ]
+      },
+      {
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "date": "2026-09-26",
+        "week": "2026-39",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+        "points": 25.0,
+        "events": [
+          {
+            "event": "MS A",
+            "placing": "33/64",
+            "points": 25.0
+          }
+        ]
       }
     ],
     "ranking_member_id": "9363921",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9363921"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9363921"
+  },
+  {
+    "name": "Tapani Kilpi",
+    "tournaments_played": 3,
+    "tournaments": [
+      [
+        "2026-09-05",
+        "Sulkakauppa ESB Premier Elite 2026"
+      ],
+      [
+        "2026-09-19",
+        "Puistolan juniorikansallinen + BC - 2026"
+      ],
+      [
+        "2026-10-30",
+        "Helsinki Open Eliitti 2026"
+      ]
+    ],
+    "gold": 0,
+    "silver": 0,
+    "bronze": 0,
+    "total_medals": 0,
+    "medals": [],
+    "ranking_points": 35.1,
+    "ranking_tournaments": [
+      {
+        "tournament": "Sulkakauppa ESB Premier Elite 2026",
+        "date": "2026-09-05",
+        "week": "2026-36",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4f3325fa-5501-4dd1-83e8-f01e49ca7441",
+        "points": 16.3,
+        "events": [
+          {
+            "event": "MS B",
+            "placing": "33/64",
+            "points": 16.3
+          }
+        ]
+      },
+      {
+        "tournament": "Puistolan juniorikansallinen + BC - 2026",
+        "date": "2026-09-19",
+        "week": "2026-38",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+        "points": 5.0,
+        "events": [
+          {
+            "event": "MS B",
+            "placing": "17/32",
+            "points": 5.0
+          }
+        ]
+      },
+      {
+        "tournament": "Helsinki Open Eliitti 2026",
+        "date": "2026-10-30",
+        "week": "2026-44",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4bd6578f-c127-4b85-b197-c52f77ef324c",
+        "points": 13.8,
+        "events": [
+          {
+            "event": "MS B",
+            "placing": "33/64",
+            "points": 10.0
+          },
+          {
+            "event": "MD B",
+            "placing": "33/64",
+            "points": 3.8
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "2377305",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=2377305"
+  },
+  {
+    "name": "Eemil Manninen",
+    "tournaments_played": 2,
+    "tournaments": [
+      [
+        "2026-09-19",
+        "Mansen Sulan Ylöjärven kansalliset 2026"
+      ],
+      [
+        "2026-09-26",
+        "FZ Forza Sulkaset Eliitti 2026"
+      ]
+    ],
+    "gold": 0,
+    "silver": 0,
+    "bronze": 0,
+    "total_medals": 0,
+    "medals": [],
+    "ranking_points": 15.0,
+    "ranking_tournaments": [
+      {
+        "tournament": "Mansen Sulan Ylöjärven kansalliset 2026",
+        "date": "2026-09-19",
+        "week": "2026-38",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/f8a75e27-7165-421f-8a14-5557c9fdb16d",
+        "points": 12.5,
+        "events": [
+          {
+            "event": "BS U15",
+            "placing": "5/8",
+            "points": 10.0
+          },
+          {
+            "event": "MS C",
+            "placing": "17/32",
+            "points": 2.5
+          }
+        ]
+      },
+      {
+        "tournament": "FZ Forza Sulkaset Eliitti 2026",
+        "date": "2026-09-26",
+        "week": "2026-39",
+        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+        "points": 2.5,
+        "events": [
+          {
+            "event": "BS U15",
+            "placing": "9/16",
+            "points": 2.5
+          }
+        ]
+      }
+    ],
+    "ranking_member_id": "9342414",
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9342414"
   },
   {
     "name": "Senuka Weeraddana",
@@ -833,7 +1735,7 @@
       }
     ],
     "ranking_member_id": "8311835",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8311835"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8311835"
   },
   {
     "name": "Sreenadh T S",
@@ -872,7 +1774,7 @@
       }
     ],
     "ranking_member_id": "9742117",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9742117"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9742117"
   },
   {
     "name": "Zhuo Su",
@@ -911,75 +1813,7 @@
       }
     ],
     "ranking_member_id": "9252747",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9252747"
-  },
-  {
-    "name": "Anniina Saarela",
-    "tournaments_played": 1,
-    "tournaments": [
-      [
-        "2026-08-22",
-        "Ylivieskan kansallinen"
-      ]
-    ],
-    "gold": 0,
-    "silver": 0,
-    "bronze": 0,
-    "total_medals": 0,
-    "medals": [],
-    "ranking_points": 2.5,
-    "ranking_tournaments": [
-      {
-        "tournament": "Ylivieskan kansallinen 2026",
-        "date": "2026-08-22",
-        "week": "2026-34",
-        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
-        "points": 2.5,
-        "events": [
-          {
-            "event": "XD C",
-            "placing": "5/8",
-            "points": 2.5
-          }
-        ]
-      }
-    ],
-    "ranking_member_id": "9278908",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=9278908"
-  },
-  {
-    "name": "Ashwath Kutty",
-    "tournaments_played": 1,
-    "tournaments": [
-      [
-        "2026-08-22",
-        "Ylivieskan kansallinen"
-      ]
-    ],
-    "gold": 0,
-    "silver": 0,
-    "bronze": 0,
-    "total_medals": 0,
-    "medals": [],
-    "ranking_points": 2.5,
-    "ranking_tournaments": [
-      {
-        "tournament": "Ylivieskan kansallinen 2026",
-        "date": "2026-08-22",
-        "week": "2026-34",
-        "url": "https://badmintonfinland.tournamentsoftware.com/tournament/591cb343-1f37-4258-8883-baef154d4181",
-        "points": 2.5,
-        "events": [
-          {
-            "event": "BS U15",
-            "placing": "9/16",
-            "points": 2.5
-          }
-        ]
-      }
-    ],
-    "ranking_member_id": "8322098",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8322098"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=9252747"
   },
   {
     "name": "Somnas Dasanayake",
@@ -1013,6 +1847,6 @@
       }
     ],
     "ranking_member_id": "8322103",
-    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=53447&player=8322103"
+    "ranking_url": "https://badmintonfinland.tournamentsoftware.com/ranking/player.aspx?id=54586&player=8322103"
   }
 ]

@@ -63,5 +63,193 @@
     ],
     "tervasulka_medals": 2,
     "has_published_results": true
+  },
+  {
+    "date": "2026-08-29",
+    "name": "Kaarinan 38. kansalliset kilpailut 2026",
+    "location": "Kaarinan Sulka | Kaarina",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/75b1829d-a8d1-49d9-a9e9-c2feba595eec",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=75b1829d-a8d1-49d9-a9e9-c2feba595eec",
+    "tournament_id": "75B1829D-A8D1-49D9-A9E9-C2FEBA595EEC",
+    "entry_list_shows": "club",
+    "players": 81,
+    "tervasulka_entrants": [],
+    "tervasulka_medals": 0,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-08-29",
+    "name": "Syssyn Kansalliset 2026",
+    "location": "BadSmashes | Ylöjärvi",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a79642fc-f554-4d70-9dc7-a4859c269958",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=a79642fc-f554-4d70-9dc7-a4859c269958",
+    "tournament_id": "A79642FC-F554-4D70-9DC7-A4859C269958",
+    "entry_list_shows": "club",
+    "players": 61,
+    "tervasulka_entrants": [],
+    "tervasulka_medals": 0,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-09-05",
+    "name": "Sulkakauppa ESB Premier Elite 2026",
+    "location": "Espoon Sulkapallo-Badminton | Espoo",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4f3325fa-5501-4dd1-83e8-f01e49ca7441",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=4f3325fa-5501-4dd1-83e8-f01e49ca7441",
+    "tournament_id": "4F3325FA-5501-4DD1-83E8-F01E49CA7441",
+    "entry_list_shows": "club",
+    "players": 298,
+    "tervasulka_entrants": [
+      "KILPI, Tapani"
+    ],
+    "tervasulka_medals": 0,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-09-19",
+    "name": "Puistolan juniorikansallinen + BC - 2026",
+    "location": "Puistolan Urheilijat | Helsinki",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/d17d01dc-1c62-4249-b117-7b12be236d46",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=d17d01dc-1c62-4249-b117-7b12be236d46",
+    "tournament_id": "D17D01DC-1C62-4249-B117-7B12BE236D46",
+    "entry_list_shows": "club",
+    "players": 165,
+    "tervasulka_entrants": [
+      "Jinu John, Jonathan",
+      "Jinu, Ashlyn",
+      "John, Jinu",
+      "Kilpi, Tapani"
+    ],
+    "tervasulka_medals": 4,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-09-19",
+    "name": "Mansen Sulan Ylöjärven kansalliset 2026",
+    "location": "Mansen Sulka | Ylöjärvi",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/f8a75e27-7165-421f-8a14-5557c9fdb16d",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=f8a75e27-7165-421f-8a14-5557c9fdb16d",
+    "tournament_id": "F8A75E27-7165-421F-8A14-5557C9FDB16D",
+    "entry_list_shows": "club",
+    "players": 146,
+    "tervasulka_entrants": [
+      "Manninen, Eemil"
+    ],
+    "tervasulka_medals": 0,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-09-26",
+    "name": "FZ Forza Sulkaset Eliitti 2026",
+    "location": "Sulkaset | Tampere",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=946c6379-38c3-459e-b8a8-f221dd2a5fd7",
+    "tournament_id": "946C6379-38C3-459E-B8A8-F221DD2A5FD7",
+    "entry_list_shows": "club",
+    "players": 286,
+    "tervasulka_entrants": [
+      "Alapukki, Pauli",
+      "Heikkinen, Markus",
+      "Leskelä, Ilari",
+      "Manninen, Eemil",
+      "Vuollet, Elias",
+      "Withanage, Nuwan"
+    ],
+    "tervasulka_medals": 4,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-10-03",
+    "name": "Porin Pyrinnön kansalliset 2026",
+    "location": "Porin Pyrinto | Pori",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/1ea43abc-f0cf-409c-a151-4c0d07f9ede7",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=1ea43abc-f0cf-409c-a151-4c0d07f9ede7",
+    "tournament_id": "1EA43ABC-F0CF-409C-A151-4C0D07F9EDE7",
+    "entry_list_shows": "club",
+    "players": 81,
+    "tervasulka_entrants": [],
+    "tervasulka_medals": 0,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-10-03",
+    "name": "Tapion Sulan U9-U15 kisa 2026",
+    "location": "Tapion Sulka | Espoo",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/86585624-c2c7-467d-8055-f9ff06ab1e3c",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=86585624-c2c7-467d-8055-f9ff06ab1e3c",
+    "tournament_id": "86585624-C2C7-467D-8055-F9FF06AB1E3C",
+    "entry_list_shows": "club",
+    "players": 108,
+    "tervasulka_entrants": [
+      "Jinu John, Jonathan",
+      "Jinu, Ashlyn"
+    ],
+    "tervasulka_medals": 3,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-10-03",
+    "name": "Kuopion kansalliset 2026, SaSu 50v. juhlakilpailu",
+    "location": "Savon Sulka | Kuopio",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=df433be5-8d5d-44b9-81f3-b9c74448ea45",
+    "tournament_id": "DF433BE5-8D5D-44B9-81F3-B9C74448EA45",
+    "entry_list_shows": "club",
+    "players": 119,
+    "tervasulka_entrants": [
+      "K S, Sanath",
+      "Kutty, Ajith",
+      "Kutty, Ashwath",
+      "Saarela, Anniina",
+      "Thoti, Narasimhulu",
+      "Waas, Nipun"
+    ],
+    "tervasulka_medals": 4,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-10-24",
+    "name": "RSL Finnish Youth 2026",
+    "location": "Espoon Sulkapallo-Badminton | Espoo",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4585f1e0-abe0-49b0-ae2e-c25824f8fef8",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=4585f1e0-abe0-49b0-ae2e-c25824f8fef8",
+    "tournament_id": "4585F1E0-ABE0-49B0-AE2E-C25824F8FEF8",
+    "entry_list_shows": "club",
+    "players": 122,
+    "tervasulka_entrants": [
+      "Jinu John, Jonathan",
+      "Jinu, Ashlyn"
+    ],
+    "tervasulka_medals": 2,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Clear Poolikisa 2026 powered by FZ Forza/ Victor",
+    "location": "Sulkapalloseura Clear | Kaarina",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/a23c47e2-f92c-40be-8e23-7129306c163e",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=a23c47e2-f92c-40be-8e23-7129306c163e",
+    "tournament_id": "A23C47E2-F92C-40BE-8E23-7129306C163E",
+    "entry_list_shows": "club",
+    "players": 161,
+    "tervasulka_entrants": [],
+    "tervasulka_medals": 0,
+    "has_published_results": true
+  },
+  {
+    "date": "2026-10-30",
+    "name": "Helsinki Open Eliitti 2026",
+    "location": "Helsingfors Badminton Club | Helsinki",
+    "url": "https://badmintonfinland.tournamentsoftware.com/tournament/4bd6578f-c127-4b85-b197-c52f77ef324c",
+    "winners_url": "https://badmintonfinland.tournamentsoftware.com/sport/winners.aspx?id=4bd6578f-c127-4b85-b197-c52f77ef324c",
+    "tournament_id": "4BD6578F-C127-4B85-B197-C52F77EF324C",
+    "entry_list_shows": "club",
+    "players": 376,
+    "tervasulka_entrants": [
+      "Kilpi, Tapani",
+      "Koivusaari, Marko"
+    ],
+    "tervasulka_medals": 0,
+    "has_published_results": true
   }
 ]
